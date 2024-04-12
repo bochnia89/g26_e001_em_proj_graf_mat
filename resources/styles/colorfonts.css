@@ -1,44 +1,288 @@
 /* CSS Document */
 /* Padrões de Fontes no projeto
-// Títulos: ;
-// Citações: 
+// Títulos: Barlow ;
+// Citações: Merriweather;
 // Texto: 'Arial' ;
 // Ordinal / químico: 'Calibri' ;
 */
 
 /*👉 -------------- TÍTULOS --------------👈*/
 @font-face {
-    font-family: '';
-    font-style: ;
-    font-weight: ;
-    src: url(../fonts/.otf) format("opentype"),
-        url(../fonts/.ttf) format("truetype"),
-        url(../fonts/.woff2) format("woff2"),
-        url(../fonts/.woff) format("woff");
+    font-family: 'Barlow';
+    font-style: normal ;
+    font-weight:100 ;
+    src: url(../fonts/Barlow-Thin.otf) format("opentype"),
+        url(../fonts/Barlow-Thin.ttf) format("truetype"),
+        url(../fonts/Barlow-Thin.woff2) format("woff2"),
+        url(../fonts/Barlow-Thin.woff) format("woff");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Barlow';
+    font-style: italic;
+    font-weight: 100;
+    src: url(../fonts/Barlow-ThinItalic.otf) format("opentype"),
+        url(../fonts/Barlow-ThinItalic.ttf) format("truetype"),
+        url(../fonts/Barlow-ThinItalic.woff2) format("woff2"),
+        url(../fonts/Barlow-ThinItalic.woff) format("woff");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Barlow';
+    font-style:normal ;
+    font-weight:200 ;
+    src: url(../fonts/Barlow-ExtraLight.otf) format("opentype"),
+        url(../fonts/Barlow-ExtraLight.ttf) format("truetype"),
+        url(../fonts/Barlow-ExtraLight.woff2) format("woff2"),
+        url(../fonts/Barlow-ExtraLight.woff) format("woff");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Barlow';
+    font-style: italic;
+    font-weight: 200;
+    src: url(../fonts/Barlow-ExtraLightItalic.otf) format("opentype"),
+        url(../fonts/Barlow-ExtraLightItalic.ttf) format("truetype"),
+        url(../fonts/Barlow-ExtraLightItalic.woff2) format("woff2"),
+        url(../fonts/Barlow-ExtraLightItalic.woff) format("woff");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight:300 ;
+    src: url(../fonts/Barlow-Light.otf) format("opentype"),
+        url(../fonts/Barlow-Light.ttf) format("truetype"),
+        url(../fonts/Barlow-Light.woff2) format("woff2"),
+        url(../fonts/Barlow-Light.woff) format("woff");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Barlow';
+    font-style: italic;
+    font-weight:300 ;
+    src: url(../fonts/Barlow-LightItalic.otf) format("opentype"),
+        url(../fonts/Barlow-LightItalic.ttf) format("truetype"),
+        url(../fonts/Barlow-LightItalic.woff2) format("woff2"),
+        url(../fonts/Barlow-LightItalic.woff) format("woff");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Barlow';
+    font-style:normal;
+    font-weight:400 ;
+    src: url(../fonts/Barlow-Regular.otf) format("opentype"),
+        url(../fonts/Barlow-Regular.ttf) format("truetype"),
+        url(../fonts/Barlow-Regular.woff2) format("woff2"),
+        url(../fonts/Barlow-Regular.woff) format("woff");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Barlow';
+    font-style:italic ;
+    font-weight:400 ;
+    src: url(../fonts/Barlow-Italic.otf) format("opentype"),
+        url(../fonts/Barlow-Italic.ttf) format("truetype"),
+        url(../fonts/Barlow-Italic.woff2) format("woff2"),
+        url(../fonts/Barlow-Italic.woff) format("woff");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 500;
+    src: url(../fonts/Barlow-Medium.otf) format("opentype"),
+        url(../fonts/Barlow-Medium.ttf) format("truetype"),
+        url(../fonts/Barlow-Medium.woff2) format("woff2"),
+        url(../fonts/Barlow-Medium.woff) format("woff");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Barlow';
+    font-style:italic ;
+    font-weight:500 ;
+    src: url(../fonts/Barlow-MediumItalic.otf) format("opentype"),
+        url(../fonts/Barlow-MediumItalic.ttf) format("truetype"),
+        url(../fonts/Barlow-MediumItalic.woff2) format("woff2"),
+        url(../fonts/Barlow-MediumItalic.woff) format("woff");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight:600 ;
+    src: url(../fonts/Barlow-SemiBold.otf) format("opentype"),
+        url(../fonts/Barlow-SemiBold.ttf) format("truetype"),
+        url(../fonts/Barlow-SemiBold.woff2) format("woff2"),
+        url(../fonts/Barlow-SemiBold.woff) format("woff");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Barlow';
+    font-style: italic;
+    font-weight: 600 ;
+    src: url(../fonts/Barlow-SemiBoldItalic.otf) format("opentype"),
+        url(../fonts/Barlow-SemiBoldItalic.ttf) format("truetype"),
+        url(../fonts/Barlow-SemiBoldItalic.woff2) format("woff2"),
+        url(../fonts/Barlow-SemiBoldItalic.woff) format("woff");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Barlow';
+    font-style: normal ;
+    font-weight:700 ;
+    src: url(../fonts/Barlow-Bold.otf) format("opentype"),
+        url(../fonts/Barlow-Bold.ttf) format("truetype"),
+        url(../fonts/Barlow-Bold.woff2) format("woff2"),
+        url(../fonts/Barlow-Bold.woff) format("woff");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Barlow';
+    font-style: italic;
+    font-weight: 700;
+    src: url(../fonts/Barlow-BoldItalic.otf) format("opentype"),
+        url(../fonts/Barlow-BoldItalic.ttf) format("truetype"),
+        url(../fonts/Barlow-BoldItalic.woff2) format("woff2"),
+        url(../fonts/Barlow-BoldItalic.woff) format("woff");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 800;
+    src: url(../fonts/Barlow-ExtraBold.otf) format("opentype"),
+        url(../fonts/Barlow-ExtraBold.ttf) format("truetype"),
+        url(../fonts/Barlow-ExtraBold.woff2) format("woff2"),
+        url(../fonts/Barlow-ExtraBold.woff) format("woff");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Barlow';
+    font-style: italic;
+    font-weight: 800;
+    src: url(../fonts/Barlow-ExtraBoldItalic.otf) format("opentype"),
+        url(../fonts/Barlow-ExtraBoldItalic.ttf) format("truetype"),
+        url(../fonts/Barlow-ExtraBoldItalic.woff2) format("woff2"),
+        url(../fonts/Barlow-ExtraBoldItalic.woff) format("woff");
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 900;
+    src: url(../fonts/Barlow-Black.otf) format("opentype"),
+        url(../fonts/Barlow-Black.ttf) format("truetype"),
+        url(../fonts/Barlow-Black.woff2) format("woff2"),
+        url(../fonts/Barlow-Black.woff) format("woff");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Barlow';
+    font-style: italic;
+    font-weight: 900;
+    src: url(../fonts/Barlow-BlackItalic.otf) format("opentype"),
+        url(../fonts/Barlow-BlackItalic.ttf) format("truetype"),
+        url(../fonts/Barlow-BlackItalic.woff2) format("woff2"),
+        url(../fonts/Barlow-BlackItalic.woff) format("woff");
+    font-display: swap;
+}
+
+
 /*👉 -------------- CITAÇÕES --------------👈*/
 @font-face {
-    font-family: '';
-    font-style: ;
-    font-weight: ;
-    src: url(../fonts/.otf) format("opentype"),
-        url(../fonts/.ttf) format("truetype"),
-        url(../fonts/.woff2) format("woff2"),
-        url(../fonts/.woff) format("woff");
+    font-family: 'Merriweather';
+    font-style:normal ;
+    font-weight: 300 ;
+    src: url(../fonts/Merriweather-Light.otf) format("opentype"),
+        url(../fonts/Merriweather-Light.ttf) format("truetype"),
+        url(../fonts/Merriweather-Light.woff2) format("woff2"),
+        url(../fonts/Merriweather-Light.woff) format("woff");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Merriweather';
+    font-style:italic ;
+    font-weight:300 ;
+    src: url(../fonts/Merriweather-LightItalic.otf) format("opentype"),
+        url(../fonts/Merriweather-LightItalic.ttf) format("truetype"),
+        url(../fonts/Merriweather-LightItalic.woff2) format("woff2"),
+        url(../fonts/Merriweather-LightItalic.woff) format("woff");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Merriweather';
+    font-style: normal ;
+    font-weight: 400 ;
+    src: url(../fonts/Merriweather-Regular.otf) format("opentype"),
+        url(../fonts/Merriweather-Regular.ttf) format("truetype"),
+        url(../fonts/Merriweather-Regular.woff2) format("woff2"),
+        url(../fonts/Merriweather-Regular.woff) format("woff");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Merriweather';
+    font-style: italic;
+    font-weight:400 ;
+    src: url(../fonts/Merriweather-Italic.otf) format("opentype"),
+        url(../fonts/Merriweather-Italic.ttf) format("truetype"),
+        url(../fonts/Merriweather-Italic.woff2) format("woff2"),
+        url(../fonts/Merriweather-Italic.woff) format("woff");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight:700 ;
+    src: url(../fonts/Merriweather-Bold.otf) format("opentype"),
+        url(../fonts/Merriweather-Bold.ttf) format("truetype"),
+        url(../fonts/Merriweather-Bold.woff2) format("woff2"),
+        url(../fonts/Merriweather-Bold.woff) format("woff");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Merriweather';
+    font-style: italic;
+    font-weight:700 ;
+    src: url(../fonts/Merriweather-BoldItalic.otf) format("opentype"),
+        url(../fonts/Merriweather-BoldItalic.ttf) format("truetype"),
+        url(../fonts/Merriweather-BoldItalic.woff2) format("woff2"),
+        url(../fonts/Merriweather-BoldItalic.woff) format("woff");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight:900 ;
+    src: url(../fonts/Merriweather-Black.otf) format("opentype"),
+        url(../fonts/Merriweather-Black.ttf) format("truetype"),
+        url(../fonts/Merriweather-Black.woff2) format("woff2"),
+        url(../fonts/Merriweather-Black.woff) format("woff");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Merriweather';
+    font-style: italic;
+    font-weight:900 ;
+    src: url(../fonts/Merriweather-BlackItalic.otf) format("opentype"),
+        url(../fonts/Merriweather-BlackItalic.ttf) format("truetype"),
+        url(../fonts/Merriweather-BlackItalic.woff2) format("woff2"),
+        url(../fonts/Merriweather-BlackItalic.woff) format("woff");
     font-display: swap;
 }
 
 /*👉 -------------- TEXTO --------------👈*/
 @font-face {
-    font-family: '';
-    font-style: ;
-    font-weight: ;
-    src: url(../fonts/.otf) format("opentype"),
-        url(../fonts/.ttf) format("truetype"),
-        url(../fonts/.woff2) format("woff2"),
-        url(../fonts/.woff) format("woff");
+    font-family: 'Arial';
+    font-style:normal ;
+    font-weight:400 ;
+    src: url(../fonts/Arial.otf) format("opentype"),
+        url(../fonts/Arial.ttf) format("truetype"),
+        url(../fonts/Arial.woff2) format("woff2"),
+        url(../fonts/Arial.woff) format("woff");
     font-display: swap;
 }
 
@@ -46,36 +290,57 @@
 
 /*👉 -------------- ORDINAL --------------👈*/
 @font-face {
-    font-family: '';
-    font-style: ;
-    font-weight: ;
-    src: url(../fonts/.otf) format("opentype"),
-        url(../fonts/.ttf) format("truetype"),
-        url(../fonts/.woff2) format("woff2"),
-        url(../fonts/.woff) format("woff");
+    font-family: 'Calibri';
+    font-style: normal ;
+    font-weight: bold ;
+    src: url(../fonts/calibri-bold.otf) format("opentype"),
+        url(../fonts/calibri-bold.ttf) format("truetype"),
+        url(../fonts/calibri-bold.woff2) format("woff2"),
+        url(../fonts/calibri-bold.woff) format("woff");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Calibri';
+    font-style:italic ;
+    font-weight:bold ;
+    src: url(../fonts/calibri-bold-italic.otf) format("opentype"),
+        url(../fonts/calibri-bold-italic.ttf) format("truetype"),
+        url(../fonts/calibri-bold-italic.woff2) format("woff2"),
+        url(../fonts/calibri-bold-italic.woff) format("woff");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Calibri';
+    font-style:italic ;
+    font-weight:400 ;
+    src: url(../fonts/calibri-italic.otf) format("opentype"),
+        url(../fonts/calibri-italic.ttf) format("truetype"),
+        url(../fonts/calibri-italic.woff2) format("woff2"),
+        url(../fonts/calibri-italic.woff) format("woff");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Calibri';
+    font-style:normal ;
+    font-weight:400 ;
+    src: url(../fonts/calibri-regular.otf) format("opentype"),
+        url(../fonts/calibri-regular.ttf) format("truetype"),
+        url(../fonts/calibri-regular.woff2) format("woff2"),
+        url(../fonts/calibri-regular.woff) format("woff");
     font-display: swap;
 }
 
 /*👉 -------------- QUIMICO --------------👈*/
-@font-face {
-    font-family: '';
-    font-style: ;
-    font-weight: ;
-    src: url(../fonts/.otf) format("opentype"),
-        url(../fonts/.ttf) format("truetype"),
-        url(../fonts/.woff2) format("woff2"),
-        url(../fonts/.woff) format("woff");
-    font-display: swap;
-}
+
 
 
 :root {
     /* Fontes */
-    --titulo:  ;
-    --citacao: ;
-    --texto:   ;
-    --ordinal: ;
-    --quimico: ;
+    --titulo: 'Barlow' ;
+    --citacao:'Merriweather' ;
+    --texto: 'Arial';
+    --ordinal:'Calibri' ;
+    --quimico:'Calibri' ;
 
     /* Tamanhos */
     --peso1: 1.8em;
