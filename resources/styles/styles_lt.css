@@ -1659,6 +1659,20 @@ p5aberturaobjtexto
 .p5aberturaobjtit{}
 .p5aberturaobjitem{}
 
+/*👉ESTILOS EXCLUSIVOS DO DIGITAL (Link)👈*/
+/* 
+d0materiaistit
+d0atividade
+d0atv
+d0anote
+d0estrategiastit
+*/
+.d0materiaistit{}
+.d0sectitatv{}
+.d0atv{}
+.d0anote{}
+.d0estrategiastit{}
+
 /*👉ESTILOS DE CARACTER👈*/
 /*👉C0: Estilos “reservados” (uso em Nested Styles)👈*/
 /* Sumário */
@@ -1859,7 +1873,13 @@ c3idiomabolditalicoresposta
     font-weight: bold;
 }
 
-
+/* idioma vocabulario */
+/* 
+c3idiomavocabulariodestaque
+c3idiomavocabulariodestaqueitalico
+*/
+.c3idiomavocabulariodestaque{}
+.c3idiomavocabulariodestaqueitalico{}
 
 /*👉C4: Estilos de Suporte👈*/
 /* 
@@ -2040,6 +2060,7 @@ o1setaverde1
 o1contornoimagem  👉 Cynthia: atualizar lista de stilos
 o1acabamentoimagem
 o1contornoimagembranco
+o1zoomcontorno
 */
 .o1boxfundobranco{}
 .o1boxfundoazul1{}
@@ -2064,6 +2085,7 @@ o1contornoimagembranco
 }
 .o1acabamentoimagem{}
 .o1contornoimagembranco{}
+.o1zoomcontorno{}
 
 
 /*👉O2: Gráficos e mapas👈*/
@@ -2122,6 +2144,7 @@ o4destaquepalavrabox
 o4destaquepalavrafio
 o4recadoimagemcinza
 o4recadoimagembranco
+o4recadoimagemvermelho
 */
 .o4questaobox{}
 .o4ficha{}
@@ -2309,7 +2332,7 @@ span.o4ficha2 {
 .o4destaquepalavrafio{}
 .o4recadoimagemcinza{}
 .o4recadoimagembranco{}
-
+.o4recadoimagemvermelho{}
 
 /*👉O5: Papeletas e papelaria👈*/
 /* 
