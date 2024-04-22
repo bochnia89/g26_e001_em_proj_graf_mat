@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="34.034" height="37.678" viewBox="0 0 34.034 37.678">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Caminho_7163" data-name="Caminho 7163" d="M0,15.672H34.034V-22.006H0Z" transform="translate(0 22.006)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="balao_pensa_dir" transform="translate(0)">
+    <g id="Grupo_7238" data-name="Grupo 7238" transform="translate(0 0)" clip-path="url(#clip-path)">
+      <g id="Grupo_7235" data-name="Grupo 7235" transform="translate(-0.001 0.001)">
+        <path id="Caminho_7160" data-name="Caminho 7160" d="M3.838,7.676a9.227,9.227,0,0,0,9.228-9.23,9.226,9.226,0,0,0-9.228-9.225A9.226,9.226,0,0,0-5.39-1.554a9.227,9.227,0,0,0,9.228,9.23" transform="translate(5.39 10.779)" fill="#d9edcd"/>
+      </g>
+      <g id="Grupo_7236" data-name="Grupo 7236" transform="translate(20.882 11.161)">
+        <path id="Caminho_7161" data-name="Caminho 7161" d="M2.687,5.374a6.459,6.459,0,0,0,6.46-6.46,6.461,6.461,0,0,0-6.46-6.46,6.461,6.461,0,0,0-6.46,6.46,6.459,6.459,0,0,0,6.46,6.46" transform="translate(3.773 7.546)" fill="#d9edcd"/>
+      </g>
+      <g id="Grupo_7237" data-name="Grupo 7237" transform="translate(24.991 28.634)">
+        <path id="Caminho_7162" data-name="Caminho 7162" d="M1.881,3.762A4.522,4.522,0,0,0,6.4-.762a4.521,4.521,0,0,0-4.522-4.52A4.521,4.521,0,0,0-2.641-.762,4.522,4.522,0,0,0,1.881,3.762" transform="translate(2.641 5.282)" fill="#d9edcd"/>
+      </g>
+    </g>
+  </g>
+</svg>

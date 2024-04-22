@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="13.072" height="7.642" viewBox="0 0 13.072 7.642">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Caminho_10" data-name="Caminho 10" d="M6.536-7.642A7.637,7.637,0,0,0,0-3.961H0V0H13.072V-3.962A7.639,7.639,0,0,0,6.536-7.642Z" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="pv_boxdica" transform="translate(0 7.642)">
+    <g id="Grupo_8" data-name="Grupo 8" clip-path="url(#clip-path)">
+      <g id="Grupo_4" data-name="Grupo 4" transform="translate(0.521 0)">
+        <path id="Caminho_6" data-name="Caminho 6" d="M0,0A5.98,5.98,0,0,0,6,5.946,5.979,5.979,0,0,0,12,0,5.979,5.979,0,0,0,6-5.946,5.98,5.98,0,0,0,0,0Z" fill="none" stroke="#24beb0" stroke-width="1"/>
+      </g>
+      <g id="Grupo_5" data-name="Grupo 5" transform="translate(2.362)">
+        <path id="Caminho_7" data-name="Caminho 7" d="M0,0A4.144,4.144,0,0,0,4.159,4.12,4.144,4.144,0,0,0,8.318,0,4.144,4.144,0,0,0,4.159-4.12,4.144,4.144,0,0,0,0,0Z" fill="none" stroke="#24beb0" stroke-width="1"/>
+      </g>
+      <g id="Grupo_6" data-name="Grupo 6" transform="translate(4.274 0)">
+        <path id="Caminho_8" data-name="Caminho 8" d="M0,0A2.238,2.238,0,0,0,2.247,2.224,2.238,2.238,0,0,0,4.494,0,2.247,2.247,0,0,0,0,0Z" fill="none" stroke="#24beb0" stroke-width="1"/>
+      </g>
+      <g id="Grupo_7" data-name="Grupo 7" transform="translate(6.116 0)">
+        <path id="Caminho_9" data-name="Caminho 9" d="M0,0A.4.4,0,0,0,.405.4.4.4,0,0,0,.811,0,.4.4,0,0,0,.405-.4.4.4,0,0,0,0,0Z" fill="none" stroke="#24beb0" stroke-width="1"/>
+      </g>
+    </g>
+  </g>
+</svg>
