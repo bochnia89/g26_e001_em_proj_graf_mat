@@ -349,72 +349,99 @@
     --peso4: 1.5em;
     --peso5: 1.4em;
     --peso6: 1.3em;
-    --peso6: 1.2em;
-    --peso7: 0.9em;
+    --peso7: 1.2em;
+    --peso8: 1.1em;
+    --peso9: 0.9em;
     --pesoPadrao: 1em;
     --pesoMenor: 0.8em;
     --pesoIntermediario: 0.9em;
 
     /* Cores */
     --corprof: #8a014c;
-    --preto_: #2B2E34;
+    --preto_: #1d1d1b;
     --preto:#000;
     --branco: #fff;
     --cinza: #ececec;
     --link: #00649c;
     --manualu: #E4F2E7;
+    --apresentacao: #dff1fd;
+    --recado: #ececec;
 
-    
-    --azul1:#398CCB;
-    --azul2:#86C2EB;
-    --azul3:#BCDCF5;
+    --azul1:#4C76BA;
+    --azul2:#7297CE;
+    --azul3:#C8D9F1;
     --azul4:#DFEAF8;
 
-    --turquesa1:#00ACA9;
-    --turquesa2:#87CDD3;
-    --turquesa3:#BEE2E9;
+    --turquesa1:#003C3C;
+    --turquesa2:#069297;
+    --turquesa3:#97D2D4;
     --turquesa4:#E0F1F5;
 
-    --verde1:#4DB05B;
-    --verde2:#9BCEA4;
-    --verde3:#CCE4CE;
-    --verde4:#E1F0EB;
+    --verde1:#00A15A;
+    --verde2:#6EAB27;
+    --verde3:#CCE5CE;
+    --verde4:#E2EDD0;
 
+    /*👉
     --citrico1:#94C23E;
     --citrico2:#D0DE84;
     --citrico3:#E4ECBC;
     --citrico4:#ECF3DA;
+    👈*/
 
-    --laranja1:#F07F3C;
-    --laranja2:#F7AE82;
-    --laranja3:#FCD7B8;
-    --laranja4:#FDE7DD;
+    --laranja1:#EC8E38;
+    --laranja2:#FCD7B8;
+    --laranja3:#FDECE5;
+    --laranja4:;
 
-    --amarelo1:#FBB900;
-    --amarelo2:#FED27A;
-    --amarelo3:#FFE6AC;
-    --amarelo4:#FEEFDE;
+    --amarelo1:#E6E09C;
+    --amarelo2:#F2E500;
+    --amarelo3:#FBEE66;
+    --amarelo4:#FFF9C7;
 
+    /*👉
     --vermelho1:#ac2d31;
     --vermelho2:#EDAAA0;
     --vermelho3:#fce3df;
     --vermelho4:#fff5f3;
+    👈*/
 
-    --rosa1:#ED6D84;
-    --rosa2:#F39DB0;
-    --rosa3:#F8C7D0;
-    --rosa4:#FCE5E9;
+    --rosa1:#EA5178;
+    --rosa2:#FAD1D6;
+    --rosa3:#f29db0;
+    --rosa4:;
 
-    --roxo1:#7263A9;
-    --roxo2:#A69DCD;
-    --roxo3:#D2CDE8;
-    --roxo4:#EDEBF7;
+    --roxo1:#470F51;
+    --roxo2:#A71680;
+    --roxo3:#E7D5EA;
+    --roxo4:#F3EAF5;
 
-    --lilas1:#7263A9;
-    --lilas2:#A69DCD;
-    --lilas3:#D2CDE8;
-    --lilas4:#EDEBF7;
+    --lilas1:#6E368C;
+    --lilas2:#7F5CA3;
+    --lilas3:#C8C1E1;
+    --lilas4:#E8E6F4;
+
+    --odsEscuro: #9c0f06;
+    --ods: #e30513;
+    --odsFundo: #fbd9d2;
+   
+    --odsFndAzul: #dff2fd;
+   
+    --estrategiaEscuro: #af2608;
+    --estrategia: #ed7102;
+    --estrategiaFundo:#fde1c6;
+   
+   
+    --juventudesEscuro:#006f2c;
+    --juventudes: #55a932;
+    --juventudesFundo: #e1efe3;
+   
+    --midiaticaEscuro:#0056a4;
+    --midiatica: #009ed4;
+    --midiaticaFundo: #d4edfc;
+
 }
+
 
 .boxdegrade{
     width: 100px;
