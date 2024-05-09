@@ -1,10 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="38.974" height="11.843" viewBox="0 0 38.974 11.843">
-  <g id="ico_navegador" transform="translate(0 11.843)">
-    <path id="Caminho_7017" data-name="Caminho 7017" d="M0,0H11.843V-11.843H0Z" fill="#387bc2"/>
-    <path id="Caminho_7018" data-name="Caminho 7018" d="M13.566,0H25.409V-11.843H13.566Z" fill="#387bc2"/>
-    <path id="Caminho_7019" data-name="Caminho 7019" d="M27.131,0H38.974V-11.843H27.131Z" fill="#387bc2"/>
-    <g id="Grupo_7114" data-name="Grupo 7114" transform="translate(2.241 -5.922)">
-      <path id="Caminho_7020" data-name="Caminho 7020" d="M0,0H7.362M18.125,2.685H13.8V-.895h4.324Zm-1.757-5.37v1.79h1.757V.895h2.567v-3.58Zm11.7,0L33.6,2.853m0-5.538L28.067,2.853" fill="none" stroke="#fff" stroke-width="0.75"/>
-    </g>
-  </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 39 11.8" style="enable-background:new 0 0 39 11.8;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#EA5178;}
+	.st1{fill:none;stroke:#FFFFFF;stroke-width:0.75;}
+</style>
+<g id="ico_navegador" transform="translate(0 11.843)">
+	<path id="Caminho_7017" class="st0" d="M0,0h11.8v-11.8H0V0z"/>
+	<path id="Caminho_7018" class="st0" d="M13.6,0h11.8v-11.8H13.6V0z"/>
+	<path id="Caminho_7019" class="st0" d="M27.1,0H39v-11.8H27.1V0z"/>
+	<g id="Grupo_7114" transform="translate(2.241 -5.922)">
+		<path id="Caminho_7020" class="st1" d="M0,0h7.4 M18.1,2.7h-4.3v-3.6h4.3L18.1,2.7z M16.4-2.7v1.8h1.8v1.8h2.6v-3.6H16.4z
+			 M28.1-2.7l5.5,5.5 M33.6-2.7l-5.5,5.5"/>
+	</g>
+</g>
 </svg>

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="52.026" height="14.304" viewBox="0 0 52.026 14.304">
+  <g id="ico_insta" transform="translate(-964.213 -1466.733)">
+    <g id="ico_camera">
+      <g id="Grupo_11595" data-name="Grupo 11595" transform="translate(999.812 1469.627)">
+        <path id="Caminho_11719" data-name="Caminho 11719" d="M0,0H-2.927c0-.028.009-.055.009-.083A2.087,2.087,0,0,0-5-2.171H-8.171A2.086,2.086,0,0,0-10.256-.083c0,.028.007.055.009.083h-2.927a2.087,2.087,0,0,0-2.085,2.087V8.6a2.087,2.087,0,0,0,2.085,2.088H0A2.086,2.086,0,0,0,2.084,8.6V2.087A2.086,2.086,0,0,0,0,0Z" fill="none" stroke="#fff" stroke-width="1"/>
+      </g>
+      <g id="Grupo_11596" data-name="Grupo 11596" transform="translate(996.989 1474.945)">
+        <path id="Caminho_11720" data-name="Caminho 11720" d="M0,0A3.838,3.838,0,0,0-3.765-3.907,3.837,3.837,0,0,0-7.529,0,3.837,3.837,0,0,0-3.765,3.907,3.838,3.838,0,0,0,0,0Z" fill="none" stroke="#fff" stroke-width="1"/>
+      </g>
+    </g>
+    <g id="ico_microfone">
+      <g id="Grupo_11597" data-name="Grupo 11597" transform="translate(1011.793 1475.488)">
+        <path id="Caminho_11721" data-name="Caminho 11721" d="M0,0H0A2.126,2.126,0,0,1-2.1-2.155V-6.232A2.126,2.126,0,0,1,0-8.388,2.126,2.126,0,0,1,2.1-6.232v4.077A2.126,2.126,0,0,1,0,0Z" fill="none" stroke="#fff" stroke-width="0.734"/>
+      </g>
+      <g id="Grupo_11599" data-name="Grupo 11599" transform="translate(1009.381 1471.315)">
+        <path id="Caminho_11723" data-name="Caminho 11723" d="M0,0H4.87" fill="none" stroke="#fff" stroke-width="0.734"/>
+      </g>
+      <g id="Grupo_11600" data-name="Grupo 11600" transform="translate(1007.883 1470.87)">
+        <path id="Caminho_11724" data-name="Caminho 11724" d="M0,0S-1.135,6.143,4.008,6.143,7.816,0,7.816,0" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.734"/>
+      </g>
+      <g id="Grupo_11601" data-name="Grupo 11601" transform="translate(1014.875 1480.537)">
+        <path id="Caminho_11725" data-name="Caminho 11725" d="M0,0H-6.119a.329.329,0,0,1-.262-.517l1.058-1.547A.318.318,0,0,1-5.061-2.2h4A.318.318,0,0,1-.8-2.064L.262-.517A.329.329,0,0,1,0,0Z" fill="none" stroke="#fff" stroke-width="1"/>
+      </g>
+    </g>
+    <g id="ico_smile">
+      <g id="Grupo_11605" data-name="Grupo 11605" transform="translate(977.829 1473.885)">
+        <path id="Caminho_11729" data-name="Caminho 11729" d="M0,0A6.605,6.605,0,0,0-6.558-6.652,6.605,6.605,0,0,0-13.116,0,6.605,6.605,0,0,0-6.558,6.652,6.605,6.605,0,0,0,0,0Z" fill="none" stroke="#fff" stroke-width="1"/>
+      </g>
+      <g id="Grupo_11606" data-name="Grupo 11606" transform="translate(974.855 1471.957)">
+        <path id="Caminho_11730" data-name="Caminho 11730" d="M0,0A1.035,1.035,0,0,0-1.027-1.042,1.035,1.035,0,0,0-2.054,0,1.035,1.035,0,0,0-1.027,1.042,1.035,1.035,0,0,0,0,0" fill="#fff"/>
+      </g>
+      <g id="Grupo_11607" data-name="Grupo 11607" transform="translate(969.741 1471.957)">
+        <path id="Caminho_11731" data-name="Caminho 11731" d="M0,0A1.035,1.035,0,0,0-1.027-1.042,1.035,1.035,0,0,0-2.054,0,1.035,1.035,0,0,0-1.027,1.042,1.035,1.035,0,0,0,0,0" fill="#fff"/>
+      </g>
+      <g id="Grupo_11608" data-name="Grupo 11608" transform="translate(967.945 1475.335)">
+        <path id="Caminho_11732" data-name="Caminho 11732" d="M0,0C0,1.276,6.476,1.276,6.476,0" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.304"/>
+      </g>
+    </g>
+  </g>
+</svg>

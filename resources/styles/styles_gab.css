@@ -25,11 +25,20 @@ p0tit3gabnegativo
 }
 
 .p0tit1gab{
+    background: var(--branco);
+    border-radius: 5em;
+    font-style: var(--titulo);
     font-size: var(--peso1);
+    font-weight: bold;
+    padding: 0.2em 0.6em;
+    margin: 0;
+    width: max-content;
+    max-width: 100%;
 }
 .p0tit1gabnegativo{}
 
 .p0tit2gab{
+    color: var(--roxo1);
     font-size: var(--peso2);
 }
 .p0tit2gabnegativo{}
