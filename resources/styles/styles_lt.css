@@ -21,7 +21,6 @@ body {
 main {
     max-width: 85ch;
     margin: 0 auto;
-
 }
 section {
     box-sizing: border-box;
@@ -135,31 +134,43 @@ aluno
 professor
 url_para_encurta
 pag
-box_aluno
-box_professor_mp
+d0box_aluno
+d0box_especificomp
 caracterizada
 descaracterizada
 ajustepronuncia
-conteudoOriginal
-conteudoAdaptado
-creditoimagemOED
+conteudooriginal
+conteudoadaptado
+creditoimagemoed
 creditoimagem
-creditoimagemResposta
-creditoimagemPage
+creditoimagemresposta
+creditoimagempage
 orienta
 orientatx
 ocultatx
 ocultamn
 hifen_ano
 */
+/* 
+d0box_aluno
+d0box_respostas
+d0box_geralmp
+d0box_especificomp
+d0box_resolucoesmp
+*/
+.d0box_geralmp{
+    background: var(--manuFundo);
+    padding: 1em;
+}
+
 .aluno {}
 .professor {}
 .url_para_encurta {}
 .pag {}
-.box_aluno {
+.d0box_aluno {
     padding: 0.5em 0 1em 0;
 }
-.box_professor_mp {
+.d0box_especificomp {
     background: var(--manualu);
     padding: 0 1em 1em 1em;
 }
@@ -496,20 +507,20 @@ p1sumariooedpeso2
 /*👉=================== ESTILOS MIOLO ================================👈*/
 /* TÍTULOS  */
 /* 
-.p0tit1
-.p0tit1numpv
-.p0tit1pv
-.p0tit2
-.p0tit2numpv
-.p0tit2pv
-.p0tit3
-.p0tit4
-.p0tit5
-.p0tit6
-.p0tit3negativo
-.p0tit4negativo
-.p0tit5negativo
-.p0tit6negativo
+p0tit1
+p0tit1numpv
+p0tit1pv
+p0tit2
+p0tit2numpv
+p0tit2pv
+p0tit3
+p0tit4
+p0tit5
+p0tit6
+p0tit3negativo
+p0tit4negativo
+p0tit5negativo
+p0tit6negativo
 */
 .p0tit1,
 .p0tit1numpv,
@@ -1095,6 +1106,7 @@ p.p2sugestcompitem{
 /* 
 p1referenciasbibliotit1
 p1referenciasbibliotit2
+p1referenciasbibliotit3
 p2referenciasbiblio
 p2referenciasbiblioitem
 p2referenciasbibliocoment
@@ -1127,7 +1139,7 @@ p2referenciasbibliocoment
     max-width: 100%;
     margin: 1em 0 0.5em 0;
 }
-
+.p1referenciasbibliotit3{}
 .p2referenciasbiblio {
     margin: 1em 0 0.1em 0;
     word-break: break-all;
@@ -1155,6 +1167,7 @@ p2textosemrecuoitemcont
 p2textonumsemrecuo
 p2textomarcadorsemrecuo
 p2textomarcadorsemrecuocont
+p2textomarcadorsemrecuoromano
 p2textosemrecuonum
 p2textosemrecuonumcont
 p2textosemrecuonumitem
@@ -1169,6 +1182,7 @@ p2textosemrecuoletra
 .p2textonumsemrecuo,
 .p2textomarcadorsemrecuo,
 .p2textomarcadorsemrecuocont,
+.p2textomarcadorsemrecuoromano,
 .p2textosemrecuonum,
 .p2textosemrecuonumcont,
 .p2textosemrecuonumitem,
@@ -1216,6 +1230,7 @@ p.p2textosemrecuoitem::before {
 .p2textomarcadorsemrecuocont {
     margin: 0.5em 0 0.5em 2em;
 }
+.p2textomarcadorsemrecuoromano{}
 .p2textosemrecuonum{
     margin: 0.5em 0 0.5em 2em;
 }
@@ -1274,6 +1289,7 @@ p2textoletracont
 p2textoletraitem
 p2textoletraitemcont
 p2textomarcador
+p2textomarcadorromano
 p2textomarcadorletra
 p2textomarcadorletracont
 p2textomarcadoritem
@@ -1293,6 +1309,7 @@ p2textomarcadorsubitemcont
 .p2textoletraitem,
 .p2textoletraitemcont,
 .p2textomarcador,
+.p2textomarcadorromano,
 .p2textomarcadorletra,
 .p2textomarcadorletracont,
 .p2textomarcadoritem,
@@ -1400,6 +1417,8 @@ p.p2textoletraitem::before {
 .p2textomarcador {
     margin: 0.5em 0 0.5em 50px;
 }
+
+.p2textomarcadorromano{}
 
 .p2textomarcadorletra {
     margin: 0.5em 0 0.5em 4.5em;
@@ -1601,30 +1620,35 @@ p.p2questaosubitem::before {
 
 /* ATIVIDADES */
 /*
-.p2atv
-.p2atvcont
-.p2atvromano
-.p2atvromanocont
-.p2atvitem
-.p2atvitemcont
-.p2atvsubitem
-.p2atvsubitemcont
-.p2atvitemletra
-.p2atvitemletracont
-.p2atvletra
-.p2atvletracont
-.p2atvletraromano
-.p2atvletraromanocont
-.p2atvletraitem
-.p2atvletraitemcont
-.p2atvletrasubitem
-.p2atvletrasubitemcont
-.p2atvletraitemromano
-.p2atvletraitemromanocont
-.p2atvmarcador
-.p2atvmarcadorcont
-.p2atvsomatoria
-.p2atvsomatoriacont
+p2atv
+p2atvcont
+p2atvromano
+p2atvromanocont
+p2atvitem
+p2atvitemcont
+p2atvsubitem
+p2atvsubitemcont
+p2atvitemletra
+p2atvitemletracont
+p2atvletra
+p2atvletracont
+p2atvletramarcador
+p2atvletramarcadorromano
+p2atvletraromano
+p2atvletraromanocont
+p2atvletraitem
+p2atvletraitemcont
+p2atvletrasubitem
+p2atvletrasubitemcont
+p2atvletraitemromano
+p2atvletraitemromanocont
+p2atvmarcador
+p2atvmarcadorcont
+p2atvmarcadorromano
+p2atvmarcadoritem
+p2atvmarcadoritemcont
+p2atvsomatoria
+p2atvsomatoriacont
 */
 .p2atv,
 .p2atvcont,
@@ -1638,6 +1662,8 @@ p.p2questaosubitem::before {
 .p2atvitemletracont,
 .p2atvletra,
 .p2atvletracont,
+.p2atvletramarcador,
+.p2atvletramarcadorromano,
 .p2atvletraromano,
 .p2atvletraromanocont,
 .p2atvletraitem,
@@ -1648,6 +1674,9 @@ p.p2questaosubitem::before {
 .p2atvletraitemromanocont,
 .p2atvmarcador,
 .p2atvmarcadorcont,
+.p2atvmarcadorromano,
+.p2atvmarcadoritem,
+.p2atvmarcadoritemcont,
 .p2atvsomatoria,
 .p2atvsomatoriacont {
     font-family: var(--texto);
@@ -1737,6 +1766,9 @@ p.p2atvsubitem::before {
     margin: 0.5em 0 0.5em 3em;
 }
 
+.p2atvletramarcador{}
+.p2atvletramarcadorromano{}
+
 .p2atvletraromano {
     margin: 0.5em 0 0.5em 5.1em;
 }
@@ -1816,6 +1848,9 @@ p.p2atvletrasubitem::before {
 .p2atvmarcadorcont {
     margin: 0.5em 0 0.5em 4em;
 }
+.p2atvmarcadorromano{}
+.p2atvmarcadoritem{}
+.p2atvmarcadoritemcont{}
 
 .p2atvsomatoria {
     margin: 0.5em 0 0.5em 5em;
@@ -2071,7 +2106,6 @@ p3citacaonumerocont
     margin: 0.5em 0;
 }
 
-/* TODO: ELEMENTO NOVO */
 
 .p3citacao {
     font-family: var(--pesoPadrao);
@@ -2250,7 +2284,11 @@ p5balao
     font-size: var(--pesoPadrao);
     text-align: center;
 }
-
+/* Ajuste de alinhamento de imagem resolução e gabarito*/
+/* 
+p5figuraespacamentogabreso
+*/
+.p5figuraespacamentogabreso{}
 
 /* MARCADORES */
 /* 
@@ -2265,6 +2303,7 @@ p5marcadorcaixa2negativo
 p5marcadorcaixa3
 p5marcadorcaixa3negativo
 p5marcadorromano
+p5marcadorquestao
 */
 .p5marcador {
     background: var(--preto);
@@ -2859,7 +2898,7 @@ o0sec2
 o0sec3
 o0sec4
 o0sec5
-o0sec6  👉 Cynthia: atualizar lista de stilos 
+o0sec6  
 o0sec7
 o0sec1a
 O0Sec2a
@@ -3610,6 +3649,7 @@ o5nota2
 o5nota3
 o5postit1
 o5postit2
+o5postit3
 o5papeleta1
 o5papeleta2
 o5passoapasso
@@ -4143,7 +4183,7 @@ border: 8px solid var(--amarelo2);
 
 
 
-/*👉06: Elistos para Fluxograma👈*/
+/*👉06: Estilos para Fluxograma👈*/
 /* 
 o6fluxogramaseta
 o6fluxogramainiciofim

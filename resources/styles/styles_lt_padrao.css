@@ -114,7 +114,7 @@ professor
 url_para_encurta
 pag
 box_aluno
-box_professor_mp
+d0box_especificompu
 caracterizada
 descaracterizada
 ajustepronuncia
@@ -135,7 +135,7 @@ hifen_ano
 .url_para_encurta{}
 .pag{}
 .box_aluno{}
-.box_professor_mp{}
+.d0box_especificompu{}
 .caracterizada{}
 .descaracterizada{}
 .ajustepronuncia{}
@@ -1133,8 +1133,8 @@ c4glossariodestaqueitalico
 /* 
 o0mpg
 o0facsimile
-o0secconheca
 o0secapresentacao
+o0secconheca
 o0secconheca2
 o0aberturabox
 o0aberturaatvbox
@@ -1147,7 +1147,7 @@ o0sec2
 o0sec3
 o0sec4
 o0sec5
-o0sec6  👉 Cynthia: atualizar lista de stilos 
+o0sec6  
 o0sec7
 o0sec1a
 O0Sec2a
