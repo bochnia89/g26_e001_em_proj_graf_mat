@@ -155,10 +155,10 @@ hifen_ano
 d0box_aluno
 d0box_respostas
 d0box_geralmp
-d0box_especificomp
+d0box_especificompu
 d0box_resolucoesmp
 */
-.d0box_geralmp{
+.d0box_geralmp, .d0box_especificompu, .d0box_resolucoesmp{
     background: var(--manuFundo);
     padding: 1em;
 }
@@ -463,34 +463,51 @@ p1sumariooedpeso2
     font-weight: bold;
 }
 
-.p1sumariopeso1 a {
-    color: var(--roxo1);
+.p1sumariopeso1>a {
+    color: var(--roxo2);
     font-weight: bold;
+    font-size: var(--peso7);
 }
 
 .p1sumariopeso1>ul {
     margin: 0.5em 0;
 }
 
-.p1sumariopeso2 a {
+.p1sumariopeso2>a {
     color: var(--preto);
     font-weight: bold;
+    font-size: var(--peso8);
+    margin: 0 0 0 0em;
+}
+
+.p1sumariopeso3>a {
+    color: var(--preto);
+    font-size: var(--pesoPadrao);
+    font-weight: 400;
+    margin: 0 0 0 0em;
+}
+
+.p1sumariopeso4>a {
+    color: var(--preto);
+    font-size: var(--peso9);
+    font-weight: 400;
     margin: 0 0 0 1em;
 }
-
-.p1sumariopeso3 a {
-    color: var(--preto);
-    font-weight: 400;
-    margin: 0 0 0 2em;
-}
-
-.p1sumariopeso4 {}
 
 .p1sumariopeso5 {}
 
 .p1sumarioextrapeso1 {}
 
-.p1sumarioextrapeso2 {}
+.p1sumarioextrapeso2>a {
+    color: var(--preto);
+    font-weight: bold;
+}
+.p1sumarioextrapeso2> a> .c0destaquecapmp{
+    background: var(--roxo2);
+    color: var(--manuFundo);
+    font-weight: bold;
+    padding: 0.2em 0.5em;
+}
 
 .p1sumarioextrapeso3 {}
 
@@ -2376,6 +2393,15 @@ figure>.p5marcador {
 
 .p5marcadorcaixa3negativo {}
 
+.p5marcadorquestao{
+    background: var(--preto);
+    color: var(--branco);
+    font-weight: bold;
+    text-align: center;
+    padding: 2px;
+ 
+}
+
 .p5marcadorromano {
     background: var(--preto);
     border-radius: 0.4em;
@@ -2433,6 +2459,12 @@ p5aberturaobjtexto
 
 /*👉ESTILOS EXCLUSIVOS DO DIGITAL (Link)👈*/
 /* 
+d0grouptit
+d0icoatencao
+d0sumariosecinicial
+d0boxsumariotit
+d0semfundo
+d0bgbranco
 d0boxabertura
 d0boxabertura2
 d0imgabertura
@@ -2459,6 +2491,12 @@ d0hora
 d0textarea
 d0input 
 */
+.d0semfundo{
+    background: none !important;
+}
+.d0bgbranco{
+    background: var(--branco);
+}
 .d0boxabertura {
     position: relative;
 }
@@ -2602,11 +2640,13 @@ c0destaqueletracitacao
 c0destaquenumero
 c0destaquenumerocitacao 👉Estilo de caracter utilizado na citacao 
 c0destaqueromano
+
 c0destaquequestaonumero
 c0destaquesomatoria
 c0bulletnumitem
 c0bulletsubitem  👉Estilo de caracter utilizado no manual em U 
-c0destaquecap 👉Estilo de caracter utilizado no sumário mp  
+c0destaquecap
+c0destaquecapmp 👉Estilo de caracter utilizado no sumário mp  
 c0destaquesecao 👉Estilo de caracter utilizado no sumário mp 
 */
 
@@ -2765,6 +2805,7 @@ c3idioma
 c3idiomabold
 c3idiomaitalico
 c3idiomabolditalico
+c3idiomasimuladorhiperlink
 */
 .c3idioma {
     background: var(--vermelho2);
@@ -2782,6 +2823,7 @@ c3idiomabolditalico
     font-weight: bold;
     font-style: italic;
 }
+.c3idiomasimuladorhiperlink{}
 
 /* (exceção no INDD - overprint) */
 /* 
@@ -2832,6 +2874,7 @@ c4vocabulariodestaque
 c4vocabulariodestaqueitalico
 c4glossariodestaque
 c4glossariodestaqueitalico
+c4textotachado
 */
 .c4lacuna {}
 
@@ -2847,6 +2890,10 @@ c4glossariodestaqueitalico
     color: var(--link);
     font-size: var(--pesoPadrao);
     text-decoration: underline;
+}
+
+.c4textotachado{
+    text-decoration: line-through;
 }
 
 .c4linhalacunaresposta {}
