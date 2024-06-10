@@ -24,10 +24,17 @@ p1box2resotit
     font-size: var(--peso1);
 }
 .p0tit2reso{
-    font-size: var(--peso2);
+    font-size: var(--peso5);
+    line-height: 1.5em !important;
+}
+.p0tit2reso>.c0destaquecapmp{
+    background: var(--roxo2);
+    color: var(--manuFundo);
+    padding: 0.1em 0.5em;
 }
 .p0tit3reso{
-    font-size: var(--peso3);
+    font-size: var(--peso6);
+    color: var(--roxo2);
 }
 
 .p1box1resotit{
