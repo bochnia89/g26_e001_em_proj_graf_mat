@@ -126,6 +126,7 @@ p2questaogabcont
 p2questaogabitem
 p2questaogabitemcont
 p2questaogabsubitem
+p2questaogabsubitemcont
 p2questaogabletra
 p2questaogabletracont
 p2questaogabletraitem
@@ -135,6 +136,7 @@ p2questaogabletraitemcont
 .p2questaogabcont,
 .p2questaogabitem,
 .p2questaogabitemcont,
+.p2questaogabsubitemcont,
 .p2questaogabsubitem,
 .p2questaogabletra,
 .p2questaogabletracont,
@@ -183,6 +185,11 @@ p.p2questaogabsubitem{
     position: absolute;
     margin:0 0 0 -26px;
 }
+
+.p2questaogabsubitemcont{
+    margin: 0.5em 0 0.5em 2em;
+}
+
 
 .p2questaogabletra{
     margin: 0.5em 0 0.5em 2em;

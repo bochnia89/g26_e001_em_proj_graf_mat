@@ -46,10 +46,12 @@ figure img {
     max-width: 100%;
     height: auto;
 }
+
 figcaption.p4legenda {
     display: table-caption;
     caption-side: bottom;
     hyphens: none;
+    margin:0.5em 0 0 12px;
 }
 figcaption.legenda2 {
     display: table-caption;
@@ -741,6 +743,36 @@ p.p1tabelatextoitem {
     height: 40px;
 }
 
+.o0sec4 .quadro td:first-child, 
+.o0sec4 .quadro th:first-child,
+.o0sec4 .quadro td:last-child,
+.o0sec4 .quadro th:last-child {
+    border: 1px solid var(--juventudesEscuro);
+}
+.o0sec4 .tb_tabela td {
+    border: 1px solid var(--juventudesEscuro);
+}
+.o0sec4 .tb_tabela th {
+    border: 1px solid var(--juventudesEscuro);
+    background: var(--juventudesFundo);
+}
+
+.o0sec5 .quadro td:first-child, 
+.o0sec5 .quadro th:first-child,
+.o0sec5 .quadro td:last-child,
+.o0sec5 .quadro th:last-child {
+    border: 1px solid var(--midiaticaEscuro);
+}
+.o0sec5 .tb_tabela td {
+    border: 1px solid var(--midiaticaEscuro);
+}
+.o0sec5 .tb_tabela th {
+    border: 1px solid var(--midiaticaEscuro);
+    background: var(--midiaticaFundo);
+}
+
+.o0sec6 .quadro td:first-child, 
+.o0sec6 .quadro th:first-child,
 .o0sec6  .quadro td:last-child,
 .o0sec6 .quadro th:last-child {
     border: 1px solid var(--odsEscuro);
@@ -819,6 +851,7 @@ p1box3tit
 .p1box2tit {
     font-family: var(--titulo);
     font-weight: bold;
+    font-size: var(--peso8);
     color: var(--preto);
 }
 
@@ -883,8 +916,16 @@ color: var(--preto);
   padding: 0;
 }
 
-.p1sec1tit3 {}
-.p1sec1tit4 {}
+.p1sec1tit3 {
+    font-family: var(--titulo);
+    font-weight: bold;
+    font-size: var(--pesoPadrao);
+}
+.p1sec1tit4 {
+    font-family: var(--titulo);
+    font-weight: bold;
+    font-size: var(--peso9);
+}
 
 .p1sec2tit1 {
   background: var(--preto);
@@ -903,7 +944,7 @@ color: var(--preto);
   color: var(--preto);
   font-family: var(--titulo);
   font-weight: bold;
-  font-size: var(--peso5);
+  font-size: var(--peso6);
   line-height: 1.1em;
   text-align: left;
   padding: 0.5em 0 0 0;
@@ -913,15 +954,20 @@ color: var(--preto);
   background: var(--laranja2);
   font-family: var(--titulo);
   font-weight: bold;
-  font-size: var(--pesoPadrao);
+  font-size: var(--peso8);
   padding: 0 1em 0 1em;
-  margin: 1em 0 0 -1em;
+  margin: 1em 0 0.5em -1em;
   max-width: 100%;
   width: max-content;
   border-radius: 0 1em 1em 0;
 }
 
-.p1sec2tit4{}
+.p1sec2tit4{
+    font-family: var(--titulo);
+  font-weight: bold;
+  font-size: var(--pesoPadrao);
+  margin: 0 0 0.5em 0;
+}
 
 
 .p1sec3tit1 {
@@ -941,7 +987,7 @@ background: var(--preto);
   color: var(--preto);
   font-family: var(--titulo);
   font-weight: bold;
-  font-size: var(--peso5);
+  font-size: var(--peso6);
   line-height: 1.1em;
   text-align: left;
   padding: 0.5em 0 0 0;
@@ -951,17 +997,22 @@ background: var(--preto);
   background: var(--azul3);
   font-family: var(--titulo);
   font-weight: bold;
-  font-size: var(--pesoPadrao);
+  font-size: var(--peso8);
   padding: 0 1em 0 1em;
-  margin: 1em 0 0 -1em;
+  margin: 1em 0 0.5em -1em;
   max-width: 100%;
   width: max-content;
   border-radius: 0 1em 1em 0;
 }
-.p1sec3tit4{}
+.p1sec3tit4{
+    font-family: var(--titulo);
+    font-weight: bold;
+    font-size: var(--pesoPadrao);
+    margin: 0 0 0.5em 0;
+}
 
 .p1sec4tit1 {
-  background: var(--juventudes);
+  background: var(--juventudesEscuro);
   border: 4px solid var(--branco);
   color: var(--branco);
   font-family: var(--titulo);
@@ -974,7 +1025,7 @@ background: var(--preto);
 }
 
 .p1sec4tit2 {
-  color: var(--juventudes);
+  color: var(--juventudesEscuro);
   font-family: var(--titulo);
   font-size: var(--peso6);
   font-weight: bold;
@@ -986,7 +1037,7 @@ background: var(--preto);
   font-family: var(--titulo);
   font-size: var(--peso8);
   font-weight: bold;
-  padding: 0.1em 0.4em;
+ 
   width: max-content;
   max-width: 100%;
   margin: 1em 0 0.5em 0;
@@ -994,7 +1045,7 @@ background: var(--preto);
 .p1sec4tit4{}
 
 .p1sec5tit1 {
-  background: var(--midiatica);
+  background: var(--midiaticaEscuro);
   border: 4px solid var(--branco);
   color: var(--branco);
   font-family: var(--titulo);
@@ -1007,7 +1058,7 @@ background: var(--preto);
 }
 
 .p1sec5tit2 {
-  color: var(--midiatica);
+  color: var(--midiaticaEscuro);
   font-family: var(--titulo);
   font-size: var(--peso6);
   font-weight: bold;
@@ -1019,12 +1070,16 @@ background: var(--preto);
   font-family: var(--titulo);
   font-size: var(--peso8);
   font-weight: bold;
-  padding: 0.1em 0.4em;
+  padding: 0;
   width: max-content;
   max-width: 100%;
   margin: 1em 0 0.5em 0;
 }
-.p1sec5tit4{}
+.p1sec5tit4{
+    font-family: var(--titulo);
+    font-weight: bold;
+    font-size: var(--pesoPadrao);
+}
 
 .p1sec6tit1 {
   background: var(--odsEscuro);
@@ -1046,12 +1101,26 @@ background: var(--preto);
   font-weight: bold;
 }
 
-.p1sec6tit3 {}
-.p1sec6tit4 {}
+.p1sec6tit3 {
+    background: var(--branco);
+    font-family: var(--titulo);
+    font-weight: bold;
+    color: var(--preto);
+    font-size: var(--peso8);
+    width: max-content;
+    max-width: 100%;
+    margin: 0.5em 0;
+    padding: 0 ;
+}
+.p1sec6tit4 {
+    font-family: var(--titulo);
+    font-weight: bold;
+    font-size: var(--pesoPadrao);
+}
 
 .p1sec7tit1 {
-  background: var(--odsEscuro);
-  border: 4px solid var(--branco);
+  background: var(--preto);
+  border-radius: 5em;
   color: var(--branco);
   font-family: var(--titulo);
   font-size: var(--peso5);
@@ -1059,18 +1128,25 @@ background: var(--preto);
   padding: 0.3em 0.5em;
   width: max-content;
   max-width: 95%;
-  margin: 0 0 0 0.5em;
+  margin:0  0 0 3em;
 }
 
 .p1sec7tit2 {
-  color: var(--odsEscuro);
   font-family: var(--titulo);
   font-size: var(--peso6);
   font-weight: bold;
 }
 
-.p1sec7tit3 {}
-.p1sec7tit4 {}
+.p1sec7tit3 {
+    font-family: var(--titulo);
+    font-weight: bold;
+    font-size: var(--peso7);
+}
+.p1sec7tit4 {
+    font-family: var(--titulo);
+    font-weight: bold;
+    font-size: var(--peso8);
+}
 
 /*👉 SUGESTÕES COMPLEMENTARES 👈*/
 /* 
@@ -1089,7 +1165,7 @@ p2sugestcompcoment
   font-weight: bold;
   padding: 0.5em 0.6em;
   margin: 0 0 1em 0;
-  width: max-content;
+  max-width: max-content;
 }
 .p1sugestcomptit2{
   font-style: var(--titulo);
@@ -1145,7 +1221,7 @@ p2referenciasbibliocoment
     font-weight: bold;
     padding: 0.5em 0.6em;
     margin: 0 0 1em 0;
-    width: max-content;
+    max-width: max-content;
 }
 
 .p1referenciasbibliotit2 {
@@ -1181,6 +1257,8 @@ p2referenciasbibliocoment
 p2textosemrecuo
 p2textosemrecuoitem
 p2textosemrecuoitemcont
+p2textosemrecuosubitem
+p2textosemrecuosubitemcont
 p2textonumsemrecuo
 p2textomarcadorsemrecuo
 p2textomarcadorsemrecuocont
@@ -1192,10 +1270,13 @@ p2textosemrecuonumitemcont
 p2textosemrecuonumletra
 p2textosemrecuonumletracont
 p2textosemrecuoletra
+p2textosemrecuoletracont
 */
 .p2textosemrecuo,
 .p2textosemrecuoitem,
 .p2textosemrecuoitemcont,
+.p2textosemrecuosubitem,
+.p2textosemrecuosubitemcont,
 .p2textonumsemrecuo,
 .p2textomarcadorsemrecuo,
 .p2textomarcadorsemrecuocont,
@@ -1205,7 +1286,9 @@ p2textosemrecuoletra
 .p2textosemrecuonumitem,
 .p2textosemrecuonumitemcont,
 .p2textosemrecuonumletra,
-.p2textosemrecuonumletracont {
+.p2textosemrecuonumletracont,
+.p2textosemrecuoletra,
+.p2textosemrecuoletracont {
     font-family: var(--texto);
     font-size: var(--pesoPadrao);
     text-align: justify;
@@ -1234,6 +1317,23 @@ p.p2textosemrecuoitem::before {
 
 .p2textosemrecuoitemcont {
     margin: 0.5em 0 0.5em 1em;
+}
+
+ul.p2textosemrecuosubitem{
+    list-style: disc;
+    margin: 0.5em 0 0.5em 2em;
+}
+p.p2textosemrecuosubitem{
+    margin: 0.5em 0 0.5em 2em;
+}
+p.p2textosemrecuosubitem::before {
+    content: ''; /*content: '•';*/
+    font-size: 1.2em;
+    margin: 0 0 0 -0.8em;
+    position: absolute;
+}
+.p2textosemrecuosubitemcont{
+    margin: 0.5em 0 0.5em 2em;
 }
 
 .p2textonumsemrecuo {
@@ -1290,7 +1390,9 @@ p.p2textosemrecuonumitem::before {
 .p2textosemrecuoletra {
     margin: 0.5em 0 0.5em 2em;
 }
-
+.p2textosemrecuoletracont{
+    margin: 0.5em 0 0.5em 2em;
+}
 
 /* TEXTO PRINCIPAL */
 /* 
@@ -1306,6 +1408,7 @@ p2textoletracont
 p2textoletraitem
 p2textoletraitemcont
 p2textomarcador
+p2textomarcadorcont
 p2textomarcadorromano
 p2textomarcadorletra
 p2textomarcadorletracont
@@ -1326,6 +1429,7 @@ p2textomarcadorsubitemcont
 .p2textoletraitem,
 .p2textoletraitemcont,
 .p2textomarcador,
+.p2textomarcadorcont,
 .p2textomarcadorromano,
 .p2textomarcadorletra,
 .p2textomarcadorletracont,
@@ -1432,6 +1536,9 @@ p.p2textoletraitem::before {
 }
 
 .p2textomarcador {
+    margin: 0.5em 0 0.5em 50px;
+}
+.p2textomarcadorcont{
     margin: 0.5em 0 0.5em 50px;
 }
 
@@ -2057,6 +2164,7 @@ p3citacaotit2
 p3citacaoolho
 p3citacaosemrecuo
 p3citacao
+p3citacaopoema
 p3citacaoitem
 p3citacaoitemcont
 p3citacaoletra
@@ -2070,6 +2178,7 @@ p3citacaonumerocont
 .p3citacaoolho,
 .p3citacaosemrecuo,
 .p3citacao,
+.p3citacaopoema,
 .p3citacaoitem,
 .p3citacaoitemcont,
 .p3citacaoletra,
@@ -2131,7 +2240,9 @@ p3citacaonumerocont
     text-indent: 1.5em;
     margin: 0.5em 0;
 }
-
+.p3citacaopoema{
+    margin: 0.5em 0 0.5em 1em;
+}
 ul.p3citacaoitem {
     list-style: disc;
     margin: 0.5em 0 0.5em 1em;
@@ -2182,6 +2293,22 @@ blockquote.p3citacaoitem::before {
 
 /* Legenda */
 .p4legenda {}
+.p4legenda::before{
+    content: '';
+    background: url(../images/pv_legenda.svg) top left no-repeat;
+    background-size: 100%;
+    width: 6px;
+    height: 20px;
+    position: absolute;
+    margin:4px 0 0 -10px;
+}
+.p4legendanegativo{
+    background: rgba(0, 0, 0);
+    border-radius: 0.5em;
+    color: var(--branco);
+    padding: 0.5em;
+    margin: 0.5em 0 0 0;
+}
 
 /* Crédito geral */
 .p4credgeral {
@@ -2232,6 +2359,7 @@ blockquote.p3citacaoitem::before {
     width: max-content;
     
 }
+
 
 /* Crédito Imagem*/
 .p4credimagem {
@@ -2320,6 +2448,7 @@ p5marcadorcaixa2negativo
 p5marcadorcaixa3
 p5marcadorcaixa3negativo
 p5marcadorromano
+p5marcador2romano
 p5marcadorquestao
 */
 .p5marcador {
@@ -2414,6 +2543,19 @@ figure>.p5marcador {
     width: 35px;
     padding: 4px 0px 0 0px;
 }
+.p5marcador2romano {
+    background: var(--amarelo3);
+    border-radius: 0.4em;
+    color: var(--preto);
+    font-weight: bold;
+    height: 28px;
+    position: absolute;
+    text-align: center;
+    margin: 0 0 0 -40px;
+    width: 35px;
+    padding: 4px 0px 0 0px;
+}
+
 
 /* ABERTURA DE CAPITULO */
 /* 
@@ -2421,15 +2563,15 @@ p5aberturaobjtit
 p5aberturaobjitem
 p5aberturaobjtexto
 */
-.p5aberturaobjtexto {}
 
-.p5aberturaobjtit {
+
+.p5aberturaobjtexto {
     color: var(--roxo1);
     font-family: var(--texto);
     font-weight: bold;
     font-size: var(--pesoPadrao);
 }
-.p5aberturaobjtit1{
+.p5aberturaobjtit{
     background: var(--roxo3);
   border-radius: 1em 1em 0 0;
   color: var(--preto);
@@ -2441,7 +2583,7 @@ p5aberturaobjtexto
   margin: 0.5em 0 0 2.5em;
   padding: 0 1em 0 2.5em;
 }
-.p5aberturaobjtit1::before {
+.p5aberturaobjtit::before {
     content: '';
     background: url(../images/pv_bnccnocapitulo.svg) top left no-repeat;
       background-size: auto;
@@ -2459,6 +2601,11 @@ p5aberturaobjtexto
 
 /*👉ESTILOS EXCLUSIVOS DO DIGITAL (Link)👈*/
 /* 
+d0secsumario
+d0sumariosecinicial
+d0navsumario
+
+d0groupline
 d0grouptit
 d0icoatencao
 d0sumariosecinicial
@@ -2478,7 +2625,6 @@ d0anote
 d0estrategiastit
 d0ods
 d0atvanote
-
 d0perfil
 d0chat
 d0conversa1 
@@ -2490,16 +2636,35 @@ d0texto
 d0hora
 d0textarea
 d0input 
+d0carimbo
+d0linha
+d0boxpoema
+d0separabloco
+d0tabuleiro
 */
+.d0secsumario{}
+.d0sumariosecinicial{}
+.d0navsumario{}
+
+.d0groupline{
+    display: flex;
+    align-items:baseline;
+}
+.d0grouptit{}
 .d0semfundo{
     background: none !important;
 }
 .d0bgbranco{
     background: var(--branco);
+   
 }
 .d0boxabertura {
     position: relative;
+    background: url(../images/bg_abertura_bottom.svg) bottom center no-repeat;
+    background-size: 100%;
+    padding-bottom: 1em;
 }
+
 
 .d0boxabertura2 {
     background: url(../images/bg_capitulobottom2.svg) bottom left no-repeat;
@@ -2524,7 +2689,7 @@ d0input
 
 .d0tit1 {}
 
-.d0tit2 {
+.d0box_aluno .d0tit2 {
     align-items: center;
     background: url(../images/pv_capitulo.svg) top left no-repeat var(--vermelho1);
     background-size: 100%;
@@ -2540,7 +2705,7 @@ d0input
     margin: 3.5em 0 0 4.5em;
 }
 
-.d0tit2::before {
+.d0box_aluno .d0tit2::before {
     content: '';
     background: url(../images/pv_capitulo_bg.svg) top left no-repeat;
     background-size: 100%;
@@ -2553,6 +2718,7 @@ d0input
 }
 
 .d0imgabertura {}
+
 
 .d0materiaistit {}
 
@@ -2611,6 +2777,41 @@ d0input
 .d0hora {}
 .d0textarea {}
 .d0input {}
+.d0carimbo{}
+.d0linha{}
+.d0boxpoema{}
+.d0separabloco{}
+.d0tabuleiro{}
+
+/*👉ESTILOS DIGITAL: página crédito👈*/
+/* 
+d1pagecreditos
+d1nomeautor
+d1cargoresponsavel1
+d1cargoresponsavel2
+d1fichacatalografica
+d1infoeditora
+d1infoimpressao
+*/
+.d1pagecreditos{}
+.d1nomeautor{}
+.d1cargoresponsavel1{}
+.d1cargoresponsavel2{}
+.d1fichacatalografica{}
+.d1infoeditora{}
+.d1infoimpressao{}
+
+/*👉ESTILOS DIGITAL: atividades adaptadas👈*/
+/* 
+d2boxadaptacaoconteudo
+d2boxadaptaprof
+d2boxadaptaaluno
+d2adaptadatit
+*/
+.d2boxadaptacaoconteudo{}
+.d2boxadaptaprof{}
+.d2boxadaptaaluno{}
+.d2adaptadatit{}
 
 /*👉ESTILOS DE CARACTER👈*/
 /*👉C0: Estilos “reservados” (uso em Nested Styles)👈*/
@@ -2762,16 +2963,13 @@ c1citacaobolditalico
 
 .c1citacaobold {
     font-weight: bold;
-    color: var(--corprof);
 }
 
 .c1citacaoitalico {
-    color: var(--corprof);
     font-style: italic;
 }
 
 .c1citacaobolditalico {
-    color: var(--corprof);
     font-style: italic;
     font-weight: bold;
 }
@@ -2823,7 +3021,10 @@ c3idiomasimuladorhiperlink
     font-weight: bold;
     font-style: italic;
 }
-.c3idiomasimuladorhiperlink{}
+.c3idiomasimuladorhiperlink{
+    color: var(--link);
+    text-decoration: underline;
+}
 
 /* (exceção no INDD - overprint) */
 /* 
@@ -2858,14 +3059,22 @@ c3idiomabolditalicoresposta
 c3idiomavocabulariodestaque
 c3idiomavocabulariodestaqueitalico
 */
-.c3idiomavocabulariodestaque {}
+.c3idiomavocabulariodestaque {
+    color: var(--lilas1);
+    font-weight: bold;
+}
 
-.c3idiomavocabulariodestaqueitalico {}
+.c3idiomavocabulariodestaqueitalico {
+    color: var(--lilas1);
+    font-weight: bold;
+    font-style: italic;
+}
 
 /*👉C4: Estilos de Suporte👈*/
 /* 
 c4lacuna
 c4ordinal
+c4ordinalbold
 c4ordinalnegativo
 c4ordinalresposta
 c4simuladorhiperlink
@@ -2881,7 +3090,10 @@ c4textotachado
 .c4ordinal {
     font-family: var(--ordinal);
 }
-
+.c4ordinalbold{
+    font-family: var(--ordinal);
+    font-weight: bold;
+}
 .c4ordinalnegativo {}
 
 .c4ordinalresposta {}
@@ -2947,6 +3159,7 @@ o0sec4
 o0sec5
 o0sec6  
 o0sec7
+o0sec8
 o0sec1a
 O0Sec2a
 o0sec3a
@@ -2987,7 +3200,24 @@ o0pronunciation 👉 Especifico de inglês
 
 .o0aberturabox {}
 
-.o0aberturaatvbox {}
+.o0aberturaatvbox {
+    margin: 1em 0;
+}
+.o0aberturaatvbox>.box {
+    border: 1px solid var(--estrategiaEscuro);
+    padding: 1em;
+    background: var(--branco);
+}
+
+.o0aberturaatvbox::before{
+    content: '';
+    background: url(../images/pv_oemestrategia.svg) top left no-repeat var(--estrategiaEscuro);
+    background-size: 15px;
+    width: 90px;
+    height: 10px;
+    position: absolute;
+    margin: -10px 0 0 0 ;
+}
 
 .o0aberturaobjbox {
     padding: 0.5em 0 1em 0;
@@ -3057,7 +3287,7 @@ o0pronunciation 👉 Especifico de inglês
     margin: 0.8em 0 0 0;
   }
 .o0sec4 > .box > .o1boxfundoverde2 > div > .p1box1tit {
-    background: var(--juventudes);
+    background: var(--juventudesEscuro);
     border-radius: 1em;
     color: var(--branco);
     font-family: var(--titulo);
@@ -3076,8 +3306,9 @@ o0pronunciation 👉 Especifico de inglês
     padding: 1em;
     margin: 0.8em 0 0 0;
   }
-  .o0sec5 > .box > .o1boxfundoazul2 > div > .p1box1tit {
-    background: var(--midiatica);
+  
+  .o0sec5 > .box > .o0sec5box2 > div > .p1box1tit {
+    background: var(--midiaticaEscuro);
     border-radius: 1em;
     color: var(--branco);
     font-family: var(--titulo);
@@ -3085,6 +3316,14 @@ o0pronunciation 👉 Especifico de inglês
     width: max-content;
     max-width: 100%;
     padding: 0 0.8em;
+  }
+  .o0sec5box2 {
+    background: var(--midiaticaFundo);
+    border-radius: 0.5em;
+    padding: 1em;
+    margin: 0.5em 0;
+    width: max-content;
+    max-width: 100%;
   }
 
 .o0sec6 {
@@ -3097,7 +3336,34 @@ o0pronunciation 👉 Especifico de inglês
     padding: 1em;
     margin: 0.8em 0 0 0;
   }
-  .o0sec6 > .box > .o1boxfundobranco > div > .p1box1tit {
+  .o0sec6 > .box > .o0sec6box2 > div > .p1box1tit {
+    background: var(--odsEscuro);
+    border-radius: 1em;
+    color: var(--branco);
+    font-family: var(--titulo);
+    line-height: 170%;
+    width: max-content;
+    max-width: 100%;
+    padding: 0 0.8em;
+  }
+.o0sec6box2{
+    background: var(--branco);
+    border-radius: 1em;
+    padding: 1em;
+    margin: 1em 0;
+}
+  
+.o0sec7 {
+    background: url(../images/pv_sec7acao.svg) top left no-repeat;
+    background-size: 100%;
+  padding:0.5em 0 0 0;
+}
+.o0sec7 > .box {
+    padding: 1em;
+    border: 2px solid var(--lilas2);
+    margin:0.4em 0 0 0;
+  }
+  .o0sec7 > .box > .o0sec7box > div > .p1box3tit {
     background: var(--odsEscuro);
     border-radius: 1em;
     color: var(--branco);
@@ -3108,26 +3374,78 @@ o0pronunciation 👉 Especifico de inglês
     padding: 0 0.8em;
   }
 
-.o0sec7 {
-  background: url(../images/pv_desenvolvimentosustentavel.svg) top left no-repeat var(--odsFndAzul);
-  background-size: 100%;
-  border: 1px solid var(--ods);
-  padding: 1em 0 0 0;
+
+  .o0sec7box,
+  .o0sec7box2{
+    margin: 1em 0;
 }
-.o0sec7 > .box {
+.o0sec7box > .p1box3tit{
+    background: var(--lilas4);
+    margin: 0 0 0 0.8em;
+}
+.o0sec7box > .p1box3tit,
+.o0sec7box2 > .p1box3tit{
+    border-radius: 1em 1em 0 0;
+    padding: 0.3em 1em;
+    max-width: max-content;
+}
+.o0sec7box2 > .p1box3tit{
+    background: var(--amarelo4);
+    margin: 0 0 0 0.8em;
+}
+.o0sec7box2 > .p1box3tit::before{
+background: url(../images/pv_o0sec7box2.svg) no-repeat;
+background-size: 100%;
+content: '';
+width:32px ;
+height:24px ;
+position: absolute;
+margin:0.6em 0 0 -30px ;
+}
+.o0sec7box > .p1box3tit::before{
+    background: url(../images/pv_o0sec7box.svg) no-repeat;
+    background-size: 100%;
+    content: '';
+    width:32px ;
+    height:24px ;
+    position: absolute;
+    margin:0.6em 0 0 -30px ;
+    }
+
+  .o0sec7box>.box{
+    background: var(--lilas4);
+    border-radius: 0em 1em 1em 1em;
     padding: 1em;
-    margin: 0.8em 0 0 0;
-  }
-  .o0sec7 > .box > .o1boxfundobranco > div > .p1box1tit {
-    background: var(--odsEscuro);
-    border-radius: 1em;
+}
+  .o0sec7box2>.box{
+    background: var(--amarelo4);
+    border-radius: 0em 1em 1em 1em;
+    padding: 1em;
+
+}
+
+
+
+.o0sec8 {
+    margin: 2em 0 0.5em 0;
+    background: url(../images/pv_exercicioseproblemas.svg) top left no-repeat;
+    background-size: 100%;
+    padding: 0.7em 0 2em 4.5em;
+}
+.p1se8tit1{
+    background: var(--preto);
+    border-radius: 1.5em ;
     color: var(--branco);
     font-family: var(--titulo);
-    line-height: 170%;
+    font-weight: bold;
+    font-size: var(--peso8);
+    padding: 0.3em 0.6em 0.5em 0.6em;
     width: max-content;
     max-width: 100%;
-    padding: 0 0.8em;
-  }
+    border-top: 3px solid var(--branco);
+    border-right: 2px solid var(--branco);
+    outline:2px solid #861d75; 
+}
 
 .o0sec1a {}
 
@@ -3143,7 +3461,12 @@ o0pronunciation 👉 Especifico de inglês
 
 .o0sec7a {}
 
-.o0sec1box {}
+.o0sec1box {
+    background: var(--amarelo4);
+    border-radius: 0.5em;
+    margin: 1em 0;
+    padding: 1em;
+}
 
 .o0sec2box {}
 
@@ -3151,7 +3474,23 @@ o0pronunciation 👉 Especifico de inglês
 
 .o0sec4box {}
 
-.o0sec5box {}
+.o0sec5box{
+    margin: 1em 0;
+}
+.o0sec5box > .p1box1tit{
+    background: var(--midiaticaEscuro);
+    border-radius: 0.5em;
+    width: max-content;
+    max-width: 100%;
+    padding: 0.2em 1em;
+}
+.o0sec5box .box{
+    border-radius:0 0.5em 0 0 ;
+     border-top: 1px solid var(--midiaticaEscuro);
+     border-right: 1px solid var(--midiaticaEscuro);
+     margin: -10px 0 0 0;
+     padding: 1.4em 1em 1em 1em;
+}
 
 .o0sec6box {}
 
@@ -3179,7 +3518,7 @@ o0pronunciation 👉 Especifico de inglês
     flex-direction: row;
     flex-wrap: wrap;
     gap: 0.2em 1em;
-    background: var(--laranja3);
+    background: var(--estrategiaFundo);
     justify-content: center;
     border-radius: 0.5em;
     padding: 1em;
@@ -3217,6 +3556,8 @@ o1boxfundoturquesa2
 o1fioindicacaoroxo1
 o1fioindicacaoverde1
 o1boxfioroxo1
+o1boxfioazul1
+o1boxfioverde1
 o1fiocotapreto
 o1setaroxo1
 o1setaverde1
@@ -3287,6 +3628,8 @@ o1zoomcontorno
 .o1fioindicacaoverde1 {}
 
 .o1boxfioroxo1 {}
+.o1boxfioazul1{}
+.o1boxfioverde1{}
 
 .o1fiocotapreto {}
 
@@ -3298,11 +3641,17 @@ o1zoomcontorno
     border: 1px solid var(--preto);
 }
 
-.o1acabamentoimagem {}
+.o1acabamentoimagem {
+    border-radius: 1.2em;
+}
 
-.o1contornoimagembranco {}
+.o1contornoimagembranco {
+    border: 5px solid var(--branco);
+}
 
-.o1zoomcontorno {}
+.o1zoomcontorno {
+    border:2px solid var(--estrategiaEscuro);
+}
 
 
 /*👉O2: Gráficos e mapas👈*/
@@ -3334,12 +3683,14 @@ o2esquemabox
 .o2esquemabox {
     margin: 1em 0 1em 0;
 }
-.o2esquemabox>.p3intermediariotit {
+.o2esquemabox>.p1esquematit {
     border-radius: 0.8em 0.8em 0 0;
     border-top: 2px solid var(--verde2);
     border-left: 2px solid var(--verde2);
     border-right: 2px solid var(--verde2);
     font-size: var(--peso8);
+    font-family: var(--titulo);
+    font-weight: bold;
     width: max-content;
     max-width: 100%;
     padding: 0.2em 1em;
@@ -3370,7 +3721,7 @@ o3fiovocabulario
 .o3fiocitacao {
     border-left: 2px solid var(--verde1);
     padding: 1em;
-    margin: 1em 0;
+    margin: 1em 0 1em 2em;
 }
 
 .o3fiovocabulario {}
@@ -3400,9 +3751,13 @@ o4exemplobox
 o4intermediariobox
 o4destaquepalavrabox
 o4destaquepalavrafio
-o4recadoimagemcinza
-o4recadoimagembranco
-o4recadoimagemvermelho
+o4recadoimagem1
+o4recadoimagem2
+o4recadoimagem3
+o4recadoimagem4
+o4tipofrase1
+o4tipofrase2
+o4tipofrase3
 */
 .o4questaobox {}
 
@@ -3681,11 +4036,24 @@ span.o4ficha2 {
 
 .o4destaquepalavrafio {}
 
-.o4recadoimagemcinza {}
+.o4recadoimagem1 {
+    background: var(--cinza);
+}
 
-.o4recadoimagembranco {}
+.o4recadoimagem2 {
+    background: var(--branco);
+}
 
-.o4recadoimagemvermelho {}
+.o4recadoimagem3 {
+    background: var(--odsFundo);
+}
+.o4recadoimagem4 {
+    background: var(--amarelo2);
+    border-radius: 0.5em 0.5em 0 0;
+}
+.o4tipofrase1{}
+.o4tipofrase2{}
+.o4tipofrase3{}
 
 /*👉O5: Papeletas e papelaria👈*/
 /* 
@@ -3706,6 +4074,7 @@ o5prancheta
 o5lousa
 o5quadrobranco
 o5moldura
+o5navegadorfundobranco
 o5navegadorbarra
 o5navegadorfundo
 o5verbetedicionario
@@ -3925,6 +4294,7 @@ border: 8px solid var(--amarelo2);
     height: 33px;
     margin-top: 1em;
   }
+.o5navegadorfundobranco{}
 .o5navegadorbarra {
     background: url(../images/ico_navegador.svg) no-repeat var(--rosa2);
   background-size: 50px;
@@ -4249,6 +4619,7 @@ o6fluxogramadecisao
 /* 
 oemestrategias
 oemestrategias2
+oemestrategias3
 oemamplieseurepertoriobox
 */
 .oemestrategias {
@@ -4275,8 +4646,7 @@ oemamplieseurepertoriobox
 
 .oemestrategias2 {
     background: url(../images/pv_oemestrategia2.svg) top left no-repeat;
-    background-size: auto;
-    background-size: 130px;
+    background-size:contain;
     margin: 1em 0;
     border: 1px solid var(--estrategiaEscuro);
     padding: 0 1em 1em 0;
@@ -4300,7 +4670,7 @@ oemamplieseurepertoriobox
   border: 2px solid var(--branco);
   margin: 0.5em;
 }
-
+.oemestrategias{}
 .oemamplieseurepertoriobox {}
 
 
@@ -4369,6 +4739,7 @@ oemamplieseurepertoriobox
 @media screen and (max-width: 700px) {
     main {
         max-width: 100%;
+        margin: 0 10px;
     }
 
     /* Apresentação */
@@ -4397,6 +4768,59 @@ oemamplieseurepertoriobox
         position: absolute;
         margin: 0 0 0 -60px;      
     }
+
+
+    /*👉SEÇÕES MOBILE👈*/
+    /*👉Seção 7 Mobile👈*/
+    .o0sec7 {
+        background: url(../images/pv_sec7acao.svg) top left no-repeat;
+        background-size:700px;
+      padding:0.2em 0 0 0;
+    }
+
+
+    
+    /* E-MAIL MOBILE */
+    .infoemail {
+        border-radius: 0.3em ;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 1em;
+        padding: 0.5em;
+        margin: 0.5em 0;
+    }
+
+    .infoemail>div{
+        background:  var(--laranja2);   
+    }
+    .btn_enviar {
+        background:url(../images/btn_enviar.svg)  no-repeat var(--laranja2);
+        background-size: 40px;
+        border-radius:0.5em ;
+        border: 3px solid var(--laranja1);
+        background-position-y:1em ;
+        background-position-x:1em;
+        width: 100%;
+        text-align: center;
+        padding:1em 2em 1em 2em;
+        margin-bottom:0.5em ;
+    }
+
+    .o0sec8 {
+        margin: 2em 0 0.5em 0;
+        background: url(../images/pv_exercicioseproblemas.svg) top left no-repeat;
+        background-size:750px;
+        padding: 0.7em 0 2em 4.5em;
+    }
+
+    /* STYLOS DO DIGITAL MOBILE */
+    .d0groupline{
+        display: flex;
+        flex-wrap:wrap ;
+        align-items:flex-start;
+    }
+
 
 }
 
