@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="3.285" height="6.57" viewBox="0 0 3.285 6.57">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Caminho_7185" data-name="Caminho 7185" d="M0-6.57H3.285V0H0Z" fill="none"/>
+    </clipPath>
+    <pattern id="pattern" preserveAspectRatio="none" width="100%" height="100%" viewBox="0 0 3 7">
+      <image width="3" height="7" xlink:href="data:image/jpeg;base64,/9j/7gAOQWRvYmUAZAAAAAAB/9sAxQACAgICAgICAgICAwICAgMEAwMDAwQFBAQEBAQFBQUFBQUFBQUFBwgICAcFCQoKCgoJDAwMDAwMDA8MDAwMDAwMAQMCAgMDAwcFBQcNCwkLDAwNDQ0NDAwMDA8ODgwMDAwMDw4MDAwODg4TDgwRERERERERERERERERERERERERERECAwICAwMDBwUFBw0LCQsMDA0NDQ0MDAwMDw4ODAwMDAwPDgwMDA4ODhMODBEREREREREREREREREREREREREREf/dAAQAAf/AABEIAAcAAwMAEQABEQECEQL/xAGiAAAAAwkAAAAAAAAAAAAAAAAAAQkCAwQFBgcICgsBAAADCQAAAAAAAAAAAAAAAAABAgMEBQYHCAkKCxAAAAAAAAFaRwAAAAAAAAAAAAECAwQFBgcICQoREhMUFRYXGBkaISIjJCUmJygpKjEyMzQ1Njc4OTpBQkNERUZHSElKUVJTVFVWV1hZWmFiY2RlZmdoaWpxcnN0dXZ3eHl6gYKDhIWGh4iJipGSk5SVlpeYmZqhoqOkpaanqKmqsbKztLW2t7i5usHCw8TFxsfIycrR0tPU1dbX2Nna4eLj5OXm5+jp6vDx8vP09fb3+Pn6EQAAAAAAAVpHAAAAAAAAAAAAAQIDBAUGBwgJChESExQVFhcYGRohIiMkJSYnKCkqMTIzNDU2Nzg5OkFCQ0RFRkdISUpRUlNUVVZXWFlaYWJjZGVmZ2hpanFyc3R1dnd4eXqBgoOEhYaHiImKkZKTlJWWl5iZmqGio6SlpqeoqaqxsrO0tba3uLm6wcLDxMXGx8jJytHS09TV1tfY2drh4uPk5ebn6Onq8PHy8/T19vf4+fr/2gAMAwAAARECEQA/AEcgEAGB/9k="/>
+    </pattern>
+  </defs>
+  <g id="pv_legenda" transform="translate(0 6.57)">
+    <g id="Grupo_7272" data-name="Grupo 7272" clip-path="url(#clip-path)">
+      <g id="Grupo_7271" data-name="Grupo 7271" transform="translate(0 0)">
+        <rect id="Retângulo_45" data-name="Retângulo 45" width="3.285" height="6.57" transform="translate(0 -6.57)" fill="url(#pattern)"/>
+      </g>
+    </g>
+  </g>
+</svg>
