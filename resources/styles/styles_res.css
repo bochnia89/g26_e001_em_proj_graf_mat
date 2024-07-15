@@ -7,13 +7,15 @@
 /* 
 p0tit1reso
 p0tit2reso
-p0tit3reso
+
+p0tit4reso
 p1box1resotit
 p1box2resotit
 */
 .p0tit1reso,
 .p0tit2reso,
 .p0tit3reso,
+.p0tit4reso,
 .p1box1resotit,
 .p1box2resotit{
     font-family: var(--titulo);
@@ -36,7 +38,9 @@ p1box2resotit
     font-size: var(--peso6);
     color: var(--roxo2);
 }
-
+.p0tit4reso{
+    font-size: var(--peso4);
+}
 .p1box1resotit{
     font-size: var(--peso6);
 }
@@ -133,6 +137,7 @@ p2atvresoletraitembullet
 p2atvresoletraitembulletcont
 p2atvresoletraromano
 p2atvresoletraromanocont
+p2atvresoletrasubromano
 p2atvresonumitem
 p2atvresonumletra
 p2atvresonumletraitem
@@ -156,6 +161,7 @@ p2atvresosomatoriacont
 .p2atvresoletraitembulletcont,
 .p2atvresoletraromano,
 .p2atvresoletraromanocont,
+.p2atvresoletrasubromano,
 .p2atvresonumitem,
 .p2atvresonumletra,
 .p2atvresonumletraitem,
@@ -180,6 +186,12 @@ p2atvresosomatoriacont
 .p2atvresoromanocont{
     margin: 0.5em 0 0.5em 3em;
 }
+.p2atvresoletrasubromano{
+    margin: 0.5em 0 0.5em 5.5em;
+}
+.p2atvresoletrasubromano>.c0destaqueletramp {
+    margin: 0 0 0 -50px;
+  }
 ul.p2atvresoitem{
     list-style: disc;
     margin: 0.5em 0 0.5em 3em;
@@ -332,6 +344,11 @@ p1sec6resotit3
 .p1sec6resotit3{}
 
 
+/* p5separadorreso */
+.p5separadorreso{
+    border-bottom: 1px solid var(--preto);
+    margin: 1em 0;
+}
 
 /*👉---- ESTILOS DE CARACTERES ---👈*/
 

@@ -782,6 +782,7 @@ p.p2questaompsubitem::before{
 
 /*👉RESPOSTA E COMENTÁRIOS - ATIVIDADES👈*/
 /* 
+p2atvmpagrupada
 p2atvmp
 p2atvmpcont
 p2atvmpromano
@@ -805,6 +806,7 @@ p2atvmpletraitem
 p2atvmpnumromano
 p2atvmpsomatoria
 */
+.p2atvmpagrupada,
 .p2atvmp,
 .p2atvmpcont,
 .p2atvmpromano,
@@ -830,6 +832,9 @@ p2atvmpsomatoria
     font-family: var(--texto);
     font-size: var(--pesoPadrao);
     text-align: justify;
+}
+.p2atvmpagrupada{
+    margin: 0.5em 0 0.5em 4.8em;
 }
 
 .p2atvmp{
@@ -948,13 +953,26 @@ p.p2atvmpletraitembullet{
 /* 
 p2referenciasbibliomp
 p2referenciasbibliompcoment
+p2referenciasbibliompitem
 */
-.p2referenciasbibliomp{}
-.p2referenciasbibliompcoment{}
+.p2referenciasbibliomp{
+    margin: 0.5em 0 0 0;
+}
+.p2referenciasbibliompcoment{
+    margin: 0 0 0.5em 0;
+}
+ul.p2referenciasbibliompitem{
+    margin: 0.5em 0 0.5em 1em;
+    list-style: disc;
+}
+p.p2referenciasbibliompitem{
+    margin: 0.5em 0 0.5em 1em;
+}
 
 /*👉TEXTOS INTERMEDIÁRIOS👈*/
 /* 
 p3intermediariomptit
+p3intermediariomptitnegativo
 p3intermediariomp
 p3intermediariompitem
 p3intermediariompitemcont
@@ -962,8 +980,24 @@ p3intermediariompitemletra
 p3intermediariompitemletracont
 p3intermediariompletra
 p3intermediariompletracont
+p3intermediariompletraromano
+p3intermediariompletraromanocont
 p3intermediariompnumero
 p3intermediariompnumerocont
+p3intermediariompnumeroromano
+p3intermediariompnumeroromanocont
+p3intermediariompnumeroletra
+p3intermediariompnumeroletracont
+p3intermediariompnumeroletraitembullet
+p3intermediariompnumeroletraitembulletcont
+p3intermediariompnumeroletraromano
+p3intermediariompnumeroletraromanocont
+p3intermediariompnumeroitem
+p3intermediariompnumeroitemcont
+p3intermediariompnumerosubitem
+p3intermediariompnumerosubitemcont
+p3intermediariompnumeroitemletra
+p3intermediariompnumeroitemletracont
 p3intermediariompmarcador
 p3intermediariompmarcadorcont
 p3intermediariompsemrecuo
@@ -972,6 +1006,7 @@ p3intermediariompsemrecuoitemcont
 */
 
 .p3intermediariomptit,
+.p3intermediariomptitnegativo,
 .p3intermediariomp,
 .p3intermediariompitem,
 .p3intermediariompitemcont,
@@ -979,8 +1014,24 @@ p3intermediariompsemrecuoitemcont
 .p3intermediariompitemletracont,
 .p3intermediariompletra,
 .p3intermediariompletracont,
+.p3intermediariompletraromano,
+.p3intermediariompletraromanocont,
 .p3intermediariompnumero,
 .p3intermediariompnumerocont,
+.p3intermediariompnumeroromano,
+.p3intermediariompnumeroromanocont,
+.p3intermediariompnumeroletra,
+.p3intermediariompnumeroletracont,
+.p3intermediariompnumeroletraitembullet,
+.p3intermediariompnumeroletraitembulletcont,
+.p3intermediariompnumeroletraromano,
+.p3intermediariompnumeroletraromanocont,
+.p3intermediariompnumeroitem,
+.p3intermediariompnumeroitemcont,
+.p3intermediariompnumerosubitem,
+.p3intermediariompnumerosubitemcont,
+.p3intermediariompnumeroitemletra,
+.p3intermediariompnumeroitemletracont,
 .p3intermediariompmarcador,
 .p3intermediariompmarcadorcont,
 .p3intermediariompsemrecuo,
@@ -996,6 +1047,7 @@ p3intermediariompsemrecuoitemcont
     font-weight: bold;
     margin: 0.5em 0 0.5em 0;
 }
+.p3intermediariomptitnegativo{}
 .p3intermediariomp{
     margin: 0.5em 0 0.5em 0;
     text-indent: 1.5em;
@@ -1029,12 +1081,75 @@ margin: 0 0 0 -26px;
 .p3intermediariompletracont{
     margin: 0.5em 0 0.5em 2.5em;
 }
+.p3intermediariompletraromano{
+    margin: 0.5em 0 0.5em 4.5em;
+}
+.p3intermediariompletraromanocont{
+    margin: 0.5em 0 0.5em 4.5em;
+}
 .p3intermediariompnumero{
     margin: 0.5em 0 0.5em 2.5em;
 }
 .p3intermediariompnumerocont{
     margin: 0.5em 0 0.5em 2.5em;
 }
+.p3intermediariompnumeroromano{
+    margin: 0.5em 0 0.5em 4em;
+}
+.p3intermediariompnumeroromanocont{
+    margin: 0.5em 0 0.5em 4em;
+}
+
+.p3intermediariompnumeroletra{
+    margin: 0.5em 0 0.5em 4.2em;
+}
+.p3intermediariompnumeroletracont{
+    margin: 0.5em 0 0.5em 4.2em;
+}
+ul.p3intermediariompnumeroletraitembullet{
+    list-style: disc;
+    margin: 0.5em 0 0.5em 5.2em;
+}
+p.p3intermediariompnumeroletraitembullet{
+    margin: 0.5em 0 0.5em 5.2em;
+}
+.p3intermediariompnumeroletraitembulletcont{
+    margin: 0.5em 0 0.5em 5.2em;
+}
+.p3intermediariompnumeroletraromano{
+    margin: 0.5em 0 0.5em 6.5em;
+}
+.p3intermediariompnumeroletraromanocont{
+    margin: 0.5em 0 0.5em 6.5em;
+}
+ul.p3intermediariompnumeroitem{
+    list-style: disc;
+    margin: 0.5em 0 0.5em 4.2em;
+}
+p.p3intermediariompnumeroitem{
+    margin: 0.5em 0 0.5em 4.2em;
+}
+.p3intermediariompnumeroitemcont{
+    margin: 0.5em 0 0.5em 4.2em;
+}
+ul.p3intermediariompnumerosubitem{
+    list-style: disc;
+    margin: 0.5em 0 0.5em 6em;
+}
+p.p3intermediariompnumerosubitem{
+    margin: 0.5em 0 0.5em 6em;
+}
+.p3intermediariompnumerosubitemcont{
+    margin: 0.5em 0 0.5em 6em;
+}
+.p3intermediariompnumeroitemletra{
+    margin: 0.5em 0 0.5em 6em;
+}
+.p3intermediariompnumeroitemletracont{
+    margin: 0.5em 0 0.5em 6em;
+}
+
+
 .p3intermediariompmarcador{
     margin: 0.5em 0 0.5em 2em;
 }
@@ -1067,7 +1182,8 @@ margin: 0 0 0 -26px ;
 p3citacaomptit1
 p3citacaomptit2
 p3citacaompolho
-p3citacaomp
+
+p3citacaomppoema
 p3citacaompitem
 p3citacaompitemcont
 p3citacaompletra
@@ -1084,6 +1200,7 @@ p3citacaompsemrecuoitem
 .p3citacaompolho,
 .p3citacaomp,
 .p3citacaompitem,
+.p3citacaomppoema,
 .p3citacaompitemcont,
 .p3citacaompletra,
 .p3citacaompletracont,
@@ -1118,6 +1235,7 @@ p3citacaompsemrecuoitem
     margin: 0.5em 0 0.5em 0;
     text-indent: 1.5em;
 }
+.p3citacaomppoema{}
 ul.p3citacaompitem{
     list-style: disc;
     margin: 0.5em 0 0.5em 2.5em;
@@ -1173,9 +1291,15 @@ margin:0 0 0 -26px ;
 /* 
 p4respostamp
 p4iconeoedmp
+p4cuidadodicamp
+p4cuidadodicampitem
+p4cuidadodicampitemcont
 */
 .p4respostamp{}
 .p4iconeoedmp{}
+.p4cuidadodicamp{}
+.p4cuidadodicampitem{}
+.p4cuidadodicampitemcont{}
 
 /* VISUAL BASEADO NO LT */
 .tb_mpg
@@ -1282,7 +1406,7 @@ p1sec4mptit4
 }
 
 
-.d0box_geralmp .o0dicabox {
+.d0box_geralmp .o4dicabox {
     background: var(--branco);
     border: 1px solid var(--turquesa2);
     padding: 1em;
@@ -1342,6 +1466,7 @@ o2esquemabox
 
 /*👉=========== ESTILOS DE CARACTER =============👈*/
 /* 
+c5indicacaomp
 c0destaqueletramp
 c0destaqueletracitacaomp
 c0destaquenumeromp
@@ -1353,7 +1478,12 @@ c0bulletnumitemmp
 c0bulletsubitemmp
 */
 
-
+.c5indicacaomp{
+    background: var(--preto);
+    color: var(--branco);
+    font-weight: bold;
+    padding: 0.1em;
+}
 
 .c0destaqueletramp{
     font-weight: bold; 
