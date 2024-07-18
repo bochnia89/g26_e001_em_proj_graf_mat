@@ -1596,7 +1596,9 @@ p.p2textoletraitem::before {
     margin: 0.5em 0 0.5em 50px;
 }
 
-.p2textomarcadorromano{}
+.p2textomarcadorromano{
+    margin: 0.5em 0 0.5em 5.5em;
+}
 
 .p2textomarcadorletra {
     margin: 0.5em 0 0.5em 4.5em;
@@ -1944,8 +1946,12 @@ p.p2atvsubitem::before {
     margin: 0.5em 0 0.5em 3em;
 }
 
-.p2atvletramarcador{}
-.p2atvletramarcadorromano{}
+.p2atvletramarcador{
+    margin: 0.5em 0 0.5em 4em;
+}
+.p2atvletramarcadorromano{
+    margin: 0.5em 0 0.5em 6em;
+}
 
 .p2atvletraromano {
     margin: 0.5em 0 0.5em 5.1em;
@@ -2026,9 +2032,27 @@ p.p2atvletrasubitem::before {
 .p2atvmarcadorcont {
     margin: 0.5em 0 0.5em 4em;
 }
-.p2atvmarcadorromano{}
-.p2atvmarcadoritem{}
-.p2atvmarcadoritemcont{}
+.p2atvmarcadorromano{
+    margin: 0.5em 0 0.5em 5.5em;
+}
+ul.p2atvmarcadoritem{
+    list-style: disc;
+    margin: 0.5em 0 0.5em 5em;
+}
+p.p2atvmarcadoritem{
+    margin: 0.5em 0 0.5em 5em;
+}
+p.p2atvmarcadoritem::before {
+    content: ''; /*content: '•';*/
+    font-size: 1.2em;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    margin: 0 0 0 -14px;
+}
+.p2atvmarcadoritemcont{
+    margin: 0.5em 0 0.5em 5em;
+}
 
 .p2atvsomatoria {
     margin: 0.5em 0 0.5em 5em;
@@ -2424,7 +2448,10 @@ p4iconeoed2
     width: 100px; 
 }
 
-.p4cotamarcador {}
+.p4cotamarcador{
+    margin: 0.5em 0 0.5em 2em;
+}
+
 
 /* Vocabulário */
 .p4vocabulario {
@@ -3001,7 +3028,7 @@ c0destaquesecao 👉Estilo de caracter utilizado no sumário mp
 /* Estilo de caracter utilizado na citacao */
 .c0destaqueromano {
     font-weight: bold;
-    width: 36px;
+    width: 38px;
     height: 36px;
     position: absolute;
     margin: 0 0 0 -40px;
