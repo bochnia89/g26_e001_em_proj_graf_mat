@@ -1320,11 +1320,11 @@ p4cuidadodicampitemcont
 /* Especificação exclusiva do Digital */
 .quadro td:first-child,
 .quadro th:first-child {
-    border: 1px solid var(--preto);
+    border: 1px solid var(--verde2);
 }
 .quadro td:last-child,
 .quadro th:last-child {
-    border: 1px solid var(--preto);
+    border: 1px solid var(--verde2);
 }
 .tabela td:first-child,
 .tabela th:first-child,
@@ -1345,12 +1345,12 @@ p4cuidadodicampitemcont
 }
 .tb_mpg td, 
 .tb_mpg2 td {
-    border: 1px solid var(--preto);
+    border: 1px solid var(--verde2);
     background: var(--branco);
 }
 .tb_mpg th,
 .tb_mpg2 th {
-    border: 1px solid var(--preto);
+    border: 1px solid var(--verde2);
     font-family: var(--titulo);
     font-size: 1em;
     text-align: center;

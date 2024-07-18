@@ -933,7 +933,7 @@ p1sec10tit4
   font-family: var(--titulo);
   font-weight: bold;
   font-size: var(--peso6);
-  padding: 0.2em 1em;
+  padding: 0.5em 1em 0.2em 1em;
   width: max-content;
   margin: 0;
   max-width: 100%;
@@ -1076,7 +1076,10 @@ background: var(--preto);
   max-width: 100%;
   margin: 1em 0 0.5em 0;
 }
-.p1sec4tit4{}
+.p1sec4tit4{
+    font-size: var(--pesoPadrao);
+    font-weight: bold;
+}
 
 .p1sec5tit1 {
   background: var(--midiaticaEscuro);
@@ -1159,7 +1162,7 @@ background: var(--preto);
   font-family: var(--titulo);
   font-size: var(--peso5);
   font-weight: bold;
-  padding: 0.3em 0.5em;
+  padding: 0.5em 0.5em 0.3em 0.5em;
   width: max-content;
   max-width: 95%;
   margin:0  0 0 3em;
@@ -4633,31 +4636,39 @@ border: 8px solid var(--amarelo2);
 
 .o5navegador{
     margin: 1em 0;
+  
 }
-.o5navegador > .box {
+.o5navegador > .o5navegadorfundo {
     background: rgba(250, 209, 214, 0.5);
     border-radius: 0.3em;
     padding: 1em;
     min-height: 350px;
   }
-  .url {
+  .url, .o5navegadorbarra>p {
     background: url(../images/ico_lupa.svg) center no-repeat var(--branco);
     background-position-x: 97%;
     background-size: 16px;
     border-radius: 1em;
-    padding: 0.2em 1em;
+    padding: 0.4em 1em;
     height: 33px;
-    margin-top: 1em;
+    margin-top: 5px;
+    font-size: 0.9em;
   }
-.o5navegadorfundobranco{}
+  .o5navegador > .o5navegadorfundobranco{
+    background:var(--branco);
+    border-radius: 0.3em;
+    padding: 1em;
+    min-height: 350px;
+  }
 .o5navegadorbarra {
-    background: url(../images/ico_navegador.svg) no-repeat var(--rosa2);
-  background-size: 50px;
-  background-position-x: 97%;
-  background-position-y: 10px;
-  border-radius: 0.3em;
-  padding: 1em;
-  margin-bottom: 0.3em;
+    background:url(../images/pv_navegadorhttp.svg) left top no-repeat, url(../images/ico_navegador.svg) no-repeat var(--rosa2);
+    background-size: 95%, 50px;
+    background-position-x: 20px, 97%;
+    background-position-y: 35px, 10px;
+    border-radius: 0.3em;
+    padding: 2em 1em 0em 1em;
+    margin-bottom: 0.3em;
+    min-height: 80px;
 }
 
 .o5navegadorfundo {}
@@ -5202,6 +5213,19 @@ oemamplieseurepertoriobox
         background: url(../images/pv_exercicioseproblemas.svg) top left no-repeat;
         background-size:750px;
         padding: 0.7em 0 2em 4.5em;
+    }
+
+
+    /* NAVEGADOR MOBILE */
+    .o5navegadorbarra {
+        background:url(../images/pv_navegadorhttp.svg) left top no-repeat, url(../images/ico_navegador.svg) no-repeat var(--rosa2);
+        background-size: 90%, 50px;
+        background-position-x: 20px, 97%;
+        background-position-y: 35px, 10px;
+        border-radius: 0.3em;
+        padding: 2em 1em 0em 1em;
+        margin-bottom: 0.3em;
+        min-height: 80px;
     }
 
     /* STYLOS DO DIGITAL MOBILE */
