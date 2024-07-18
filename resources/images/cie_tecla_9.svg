@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="27.448" height="17.578" viewBox="0 0 27.448 17.578">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Retângulo_170" data-name="Retângulo 170" width="27.448" height="17.578" transform="translate(0 0)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="cie_tecla_9" transform="translate(0 0)">
+    <g id="Grupo_12936" data-name="Grupo 12936">
+      <g id="Grupo_12935" data-name="Grupo 12935" clip-path="url(#clip-path)">
+        <path id="Caminho_13106" data-name="Caminho 13106" d="M27.073.562c0-.109-5.426-.187-13.349-.187S.379.453.376.562l0,.061.432,16.4c0,.1,5.41.176,12.913.176s12.916-.079,12.916-.176l.43-16.4Z" fill="#b9c73a"/>
+        <path id="Caminho_13107" data-name="Caminho 13107" d="M27.073.562c0-.109-5.426-.187-13.349-.187S.379.453.376.562l0,.061.432,16.4c0,.1,5.41.176,12.913.176s12.916-.079,12.916-.176l.43-16.4Z" fill="none" stroke="#669d3e" stroke-miterlimit="10" stroke-width="0.75"/>
+        <path id="Caminho_13108" data-name="Caminho 13108" d="M25.446,1.814c0-.086-4.635-.154-11.584-.154s-11.586.068-11.589.154l0,.053.38,13.619c0,.082,4.621.146,11.206.146s11.2-.064,11.2-.146l.377-13.619Z" fill="#b9c73a"/>
+        <path id="Caminho_13109" data-name="Caminho 13109" d="M25.446,1.814c0-.086-4.635-.154-11.584-.154s-11.586.068-11.589.154l0,.053.38,13.619c0,.082,4.621.146,11.206.146s11.2-.064,11.2-.146l.377-13.619Z" fill="none" stroke="#669d3e" stroke-miterlimit="10" stroke-width="0.75"/>
+      </g>
+    </g>
+    <path id="Caminho_13494" data-name="Caminho 13494" d="M4.908-5.664a1.758,1.758,0,0,1-1.74,1.872,1.743,1.743,0,0,1-1.68-1.8c0-1.044.456-2.016,1.668-2.016A1.767,1.767,0,0,1,4.908-5.664ZM.588-2.052a2.324,2.324,0,0,0,2.58,2.2C5.232.144,6.12-1.5,6.12-4.44c0-3.216-1.332-4.068-2.916-4.068a2.658,2.658,0,0,0-2.8,2.772A2.57,2.57,0,0,0,3.1-2.892,2.23,2.23,0,0,0,5.064-4.068l.024.024c-.06,2.2-.672,3.288-1.92,3.288a1.441,1.441,0,0,1-1.56-1.3Z" transform="translate(10.388 13.636)" fill="#161615"/>
+  </g>
+</svg>

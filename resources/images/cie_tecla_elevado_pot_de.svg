@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="22.924" height="20.784" viewBox="0 0 22.924 20.784">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Retângulo_190" data-name="Retângulo 190" width="22.924" height="20.784" transform="translate(0 0)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="cie_tecla_elevado_pot_de" transform="translate(0 0)">
+    <g id="Grupo_12971" data-name="Grupo 12971" clip-path="url(#clip-path)">
+      <path id="Caminho_13169" data-name="Caminho 13169" d="M22.548,7.551c0-.084-4.965-.145-11.086-.145S.378,7.467.375,7.551l0,.047L.712,20.273c0,.076,4.952.136,10.75.136s10.752-.06,10.752-.136L22.546,7.6Z" fill="#fff286"/>
+      <path id="Caminho_13170" data-name="Caminho 13170" d="M22.548,7.551c0-.084-4.965-.145-11.086-.145S.378,7.467.375,7.551l0,.047L.712,20.273c0,.076,4.952.136,10.75.136s10.752-.06,10.752-.136L22.546,7.6Z" fill="none" stroke="#f58a2c" stroke-miterlimit="10" stroke-width="0.75"/>
+      <path id="Caminho_13171" data-name="Caminho 13171" d="M21.291,8.519c0-.066-4.354-.12-9.723-.12s-9.724.054-9.726.12l0,.041.293,10.522c0,.065,4.343.115,9.431.115s9.43-.05,9.43-.115L21.289,8.56Z" fill="#fff6ad"/>
+      <path id="Caminho_13172" data-name="Caminho 13172" d="M21.291,8.519c0-.066-4.354-.12-9.723-.12s-9.724.054-9.726.12l0,.041.293,10.522c0,.065,4.343.115,9.431.115s9.43-.05,9.43-.115L21.289,8.56Z" fill="none" stroke="#f58a2c" stroke-miterlimit="10" stroke-width="0.75"/>
+      <path id="Caminho_13173" data-name="Caminho 13173" d="M16.327,1.779H12.186l-1.2,4.205-.188-.5-.183-.444-.192-.43-.209-.454-1,.321.13.408.549-.173.433.975c.139.33.276.669.408,1.02h.518l1.3-4.441h3.777Z" fill="#e23734"/>
+      <path id="Caminho_13471" data-name="Caminho 13471" d="M.036,0H.448l.576-.856L1.6,0h.436l-.8-1.116.712-.952H1.54l-.516.724-.5-.724H.092l.72.98Z" transform="translate(8.173 3.32)" fill="#e23734"/>
+      <path id="Caminho_13174" data-name="Caminho 13174" d="M10.479,15.2l1.484-2.166L13.446,15.2h.994l-1.971-2.873H11.456L9.487,15.2Z" fill="#161615"/>
+    </g>
+  </g>
+</svg>

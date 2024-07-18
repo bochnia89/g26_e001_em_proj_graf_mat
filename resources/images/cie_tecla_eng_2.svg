@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="22.922" height="13.753" viewBox="0 0 22.922 13.753">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Retângulo_193" data-name="Retângulo 193" width="22.922" height="13.753" transform="translate(0 0)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="cie_tecla_eng_2" transform="translate(0 0)">
+    <g id="Grupo_12976" data-name="Grupo 12976">
+      <g id="Grupo_12975" data-name="Grupo 12975" clip-path="url(#clip-path)">
+        <path id="Caminho_13185" data-name="Caminho 13185" d="M22.547.519c0-.084-4.965-.145-11.086-.145S.377.435.375.519l0,.047L.711,13.241c0,.076,4.953.136,10.75.136s10.752-.06,10.752-.136L22.545.566Z" fill="#fff286"/>
+        <path id="Caminho_13186" data-name="Caminho 13186" d="M22.547.519c0-.084-4.965-.145-11.086-.145S.377.435.375.519l0,.047L.711,13.241c0,.076,4.953.136,10.75.136s10.752-.06,10.752-.136L22.545.566Z" fill="none" stroke="#f58a2c" stroke-miterlimit="10" stroke-width="0.75"/>
+        <path id="Caminho_13187" data-name="Caminho 13187" d="M21.291,1.487c0-.066-4.354-.12-9.723-.12s-9.724.054-9.726.12l0,.041L2.137,12.05c0,.065,4.343.115,9.431.115S21,12.115,21,12.05l.291-10.522Z" fill="#fff6ad"/>
+        <path id="Caminho_13188" data-name="Caminho 13188" d="M21.291,1.487c0-.066-4.354-.12-9.723-.12s-9.724.054-9.726.12l0,.041L2.137,12.05c0,.065,4.343.115,9.431.115S21,12.115,21,12.05l.291-10.522Z" fill="none" stroke="#f58a2c" stroke-miterlimit="10" stroke-width="0.75"/>
+      </g>
+    </g>
+    <path id="Caminho_13469" data-name="Caminho 13469" d="M.7,0H5.166V-.72H1.557V-2.943H4.9v-.72H1.557V-5.706H5.139v-.72H.7Zm5.49,0H7V-5.157H7.02L10.377,0h.936V-6.426H10.5v5.211h-.018L7.1-6.426H6.192ZM17.73,0h.54V-3.384H15.453v.72h2.052a1.936,1.936,0,0,1-2.061,2.1,2.313,2.313,0,0,1-2.2-2.565c0-1.377.648-2.727,2.2-2.727a1.74,1.74,0,0,1,1.908,1.413h.855a2.5,2.5,0,0,0-2.763-2.133c-2.034,0-3.06,1.62-3.06,3.492a3.08,3.08,0,0,0,3.06,3.24A2.516,2.516,0,0,0,17.505-.8Z" transform="translate(1.988 9.936)" fill="#161615"/>
+  </g>
+</svg>

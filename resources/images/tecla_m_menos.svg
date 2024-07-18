@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="21.043" height="13.541" viewBox="0 0 21.043 13.541">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Retângulo_145" data-name="Retângulo 145" width="21.043" height="13.541" transform="translate(0 0)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="tecla_m_menos" transform="translate(0 0)">
+    <g id="Grupo_12889" data-name="Grupo 12889">
+      <g id="Grupo_12888" data-name="Grupo 12888" clip-path="url(#clip-path)">
+        <path id="Caminho_13005" data-name="Caminho 13005" d="M20.668.518c0-.083-4.125-.143-10.146-.143S.377.435.375.518l0,.045.329,12.47c0,.074,4.112.133,9.816.133s9.817-.059,9.817-.133L20.666.563Z" fill="#ea6d6e"/>
+        <path id="Caminho_13006" data-name="Caminho 13006" d="M20.668.518c0-.083-4.125-.143-10.146-.143S.377.435.375.518l0,.045.329,12.47c0,.074,4.112.133,9.816.133s9.817-.059,9.817-.133L20.666.563Z" fill="none" stroke="#e23734" stroke-miterlimit="10" stroke-width="0.75"/>
+        <path id="Caminho_13007" data-name="Caminho 13007" d="M19.431,1.468c0-.064-3.522-.117-8.8-.117s-8.807.053-8.808.117v.041l.29,10.352c0,.062,3.511.111,8.517.111s8.517-.049,8.517-.111L19.43,1.509Z" fill="#ea6d6e"/>
+        <path id="Caminho_13008" data-name="Caminho 13008" d="M19.431,1.468c0-.064-3.522-.117-8.8-.117s-8.807.053-8.808.117v.041l.29,10.352c0,.062,3.511.111,8.517.111s8.517-.049,8.517-.111L19.43,1.509Z" fill="none" stroke="#e23734" stroke-miterlimit="10" stroke-width="0.75"/>
+      </g>
+    </g>
+    <text id="M-" transform="translate(4.775 9.579)" fill="#161615" font-size="9.121" font-family="HelveticaNeueLTStd-Roman, Helvetica Neue LT Std"><tspan x="0" y="0">M-</tspan></text>
+  </g>
+</svg>

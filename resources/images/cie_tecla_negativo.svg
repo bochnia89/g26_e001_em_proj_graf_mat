@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="22.923" height="18.987" viewBox="0 0 22.923 18.987">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Retângulo_220" data-name="Retângulo 220" width="22.923" height="18.987" transform="translate(0 0)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="cie_tecla_negativo" transform="translate(0 0)">
+    <g id="Grupo_13026" data-name="Grupo 13026">
+      <g id="Grupo_13025" data-name="Grupo 13025" clip-path="url(#clip-path)">
+        <path id="Caminho_13278" data-name="Caminho 13278" d="M22.548,5.753c0-.084-4.965-.145-11.086-.145S.378,5.669.375,5.753l0,.047L.712,18.475c0,.076,4.952.136,10.75.136s10.752-.06,10.752-.136L22.546,5.8Z" fill="#fff286"/>
+        <path id="Caminho_13279" data-name="Caminho 13279" d="M22.548,5.753c0-.084-4.965-.145-11.086-.145S.378,5.669.375,5.753l0,.047L.712,18.475c0,.076,4.952.136,10.75.136s10.752-.06,10.752-.136L22.546,5.8Z" fill="none" stroke="#f58a2c" stroke-miterlimit="10" stroke-width="0.75"/>
+        <path id="Caminho_13280" data-name="Caminho 13280" d="M21.291,6.721c0-.066-4.354-.12-9.723-.12s-9.724.054-9.726.12l0,.041.293,10.523c0,.064,4.343.114,9.431.114s9.43-.05,9.43-.114l.291-10.523Z" fill="#fff6ad"/>
+        <path id="Caminho_13281" data-name="Caminho 13281" d="M21.291,6.721c0-.066-4.354-.12-9.723-.12s-9.724.054-9.726.12l0,.041.293,10.523c0,.064,4.343.114,9.431.114s9.43-.05,9.43-.114l.291-10.523Z" fill="none" stroke="#f58a2c" stroke-miterlimit="10" stroke-width="0.75"/>
+        <path id="Caminho_13431" data-name="Caminho 13431" d="M1.655-2.955H1.67L2.205-1.42H1.115ZM-.035,0H.61L.945-.945H2.37L2.7,0h.67L2-3.57H1.335Z" transform="translate(18.64 4.15)" fill="#3e2176"/>
+      </g>
+    </g>
+    <path id="Caminho_13430" data-name="Caminho 13430" d="M2.421,1.782A7.586,7.586,0,0,1,1.233-2.43,7.446,7.446,0,0,1,2.421-6.579H1.836A7.079,7.079,0,0,0,.423-2.43,7.553,7.553,0,0,0,1.836,1.782Z" transform="translate(6.881 15.084)" fill="#161615"/>
+    <path id="Caminho_13429" data-name="Caminho 13429" d="M0-2.142H4.5v-.72H0Z" transform="translate(9.212 15.084)" fill="#161615"/>
+    <path id="Caminho_13428" data-name="Caminho 13428" d="M.5,1.782A7.079,7.079,0,0,0,1.908-2.367,7.553,7.553,0,0,0,.5-6.579H-.09A7.586,7.586,0,0,1,1.1-2.367,7.446,7.446,0,0,1-.09,1.782Z" transform="translate(13.712 15.084)" fill="#161615"/>
+  </g>
+</svg>

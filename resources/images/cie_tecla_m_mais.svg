@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="23.026" height="24.907" viewBox="0 0 23.026 24.907">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Retângulo_213" data-name="Retângulo 213" width="23.026" height="24.907" transform="translate(0 0)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="cie_tecla_m_mais" transform="translate(0 0)">
+    <g id="Grupo_13015" data-name="Grupo 13015">
+      <g id="Grupo_13014" data-name="Grupo 13014" clip-path="url(#clip-path)">
+        <path id="Caminho_13247" data-name="Caminho 13247" d="M22.548,5.7c0-.084-4.965-.145-11.086-.145S.378,5.62.375,5.7l0,.047L.712,18.426c0,.076,4.952.136,10.75.136s10.752-.06,10.752-.136l.332-12.675Z" fill="#fff286"/>
+        <path id="Caminho_13248" data-name="Caminho 13248" d="M22.548,5.7c0-.084-4.965-.145-11.086-.145S.378,5.62.375,5.7l0,.047L.712,18.426c0,.076,4.952.136,10.75.136s10.752-.06,10.752-.136l.332-12.675Z" fill="none" stroke="#f58a2c" stroke-miterlimit="10" stroke-width="0.75"/>
+        <path id="Caminho_13249" data-name="Caminho 13249" d="M21.291,6.672c0-.066-4.354-.12-9.723-.12s-9.724.054-9.726.12l0,.041.293,10.522c0,.065,4.343.115,9.431.115S21,17.3,21,17.235l.291-10.522Z" fill="#fff6ad"/>
+        <path id="Caminho_13250" data-name="Caminho 13250" d="M21.291,6.672c0-.066-4.354-.12-9.723-.12s-9.724.054-9.726.12l0,.041.293,10.522c0,.065,4.343.115,9.431.115S21,17.3,21,17.235l.291-10.522Z" fill="none" stroke="#f58a2c" stroke-miterlimit="10" stroke-width="0.75"/>
+        <path id="Caminho_13443" data-name="Caminho 13443" d="M1-3.06H1.62c.98,0,1.19.56,1.19,1.275S2.6-.51,1.62-.51H1ZM.38,0H1.86c1.1,0,1.575-.8,1.575-1.785S2.96-3.57,1.86-3.57H.38ZM3.65-3.03H4.78V0H5.4V-3.03H6.54v-.54H3.65Z" transform="translate(1.525 23.803)" fill="#0064b3"/>
+        <path id="Caminho_13442" data-name="Caminho 13442" d="M3.415-2.435A1.394,1.394,0,0,0,1.9-3.655,1.725,1.725,0,0,0,.19-1.785,1.725,1.725,0,0,0,1.9.085,1.463,1.463,0,0,0,3.42-1.36H2.81a.919.919,0,0,1-.91.935C1.135-.425.815-1.1.815-1.785s.32-1.36,1.085-1.36a.853.853,0,0,1,.89.71ZM3.99,0H6.43V-.54H4.615V-3.57H3.99Z" transform="translate(12.575 23.803)" fill="#e23734"/>
+        <path id="Caminho_13251" data-name="Caminho 13251" d="M11.913,21.543v.26H10.7V18.595h.283v2.948Z" fill="#0064b3"/>
+        <path id="Caminho_13252" data-name="Caminho 13252" d="M20.645,21.545V18.627h.283V21.8H19.712v-.258Z" fill="#0064b3"/>
+        <path id="Caminho_13441" data-name="Caminho 13441" d="M.37,0h.6V-2.755h.01L1.965,0H2.48l.99-2.755h.01V0h.6V-3.57h-.87l-.96,2.8h-.01L1.25-3.57H.37Z" transform="translate(18.581 4.149)" fill="#3e2176"/>
+        <path id="Caminho_13440" data-name="Caminho 13440" d="M.37,0h.6V-2.755h.01L1.965,0H2.48l.99-2.755h.01V0h.6V-3.57h-.87l-.96,2.8h-.01L1.25-3.57H.37ZM4.69-1.09H6.145v-.54H4.69Z" transform="translate(0.586 4.149)" fill="#e23734"/>
+      </g>
+    </g>
+    <path id="Caminho_13439" data-name="Caminho 13439" d="M.72,0h.81V-5.346h.018L3.555,0h.729L6.291-5.346h.018V0h.81V-6.426H5.949l-2.034,5.4L1.89-6.426H.72ZM10.845-4.554h-.612v1.971H8.271v.612h1.962V0h.612V-1.971h1.962v-.612H10.845Z" transform="translate(4.738 15.119)" fill="#161615"/>
+  </g>
+</svg>

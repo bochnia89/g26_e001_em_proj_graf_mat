@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="22.922" height="17.65" viewBox="0 0 22.922 17.65">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Retângulo_192" data-name="Retângulo 192" width="22.922" height="17.65" transform="translate(0 0)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="cie_tecla_eng" transform="translate(0 0)">
+    <g id="Grupo_12974" data-name="Grupo 12974">
+      <g id="Grupo_12973" data-name="Grupo 12973" clip-path="url(#clip-path)">
+        <path id="Caminho_13180" data-name="Caminho 13180" d="M22.547,4.417c0-.084-4.965-.145-11.086-.145S.377,4.333.375,4.417l0,.047L.711,17.139c0,.076,4.953.136,10.75.136s10.752-.06,10.752-.136l.332-12.675Z" fill="#fff286"/>
+        <path id="Caminho_13181" data-name="Caminho 13181" d="M22.547,4.417c0-.084-4.965-.145-11.086-.145S.377,4.333.375,4.417l0,.047L.711,17.139c0,.076,4.953.136,10.75.136s10.752-.06,10.752-.136l.332-12.675Z" fill="none" stroke="#f58a2c" stroke-miterlimit="10" stroke-width="0.75"/>
+        <path id="Caminho_13182" data-name="Caminho 13182" d="M21.291,5.385c0-.066-4.354-.12-9.723-.12s-9.724.054-9.726.12l0,.041.293,10.522c0,.065,4.343.115,9.431.115s9.43-.05,9.43-.115l.291-10.522Z" fill="#fff6ad"/>
+        <path id="Caminho_13183" data-name="Caminho 13183" d="M21.291,5.385c0-.066-4.354-.12-9.723-.12s-9.724.054-9.726.12l0,.041.293,10.522c0,.065,4.343.115,9.431.115s9.43-.05,9.43-.115l.291-10.522Z" fill="none" stroke="#f58a2c" stroke-miterlimit="10" stroke-width="0.75"/>
+        <path id="Caminho_13184" data-name="Caminho 13184" d="M14.771,1.719v-1H10.6L11.016,0,8.032,1.219l2.984,1.22-.418-.72Z" fill="#e23734"/>
+      </g>
+    </g>
+    <path id="Caminho_13470" data-name="Caminho 13470" d="M.7,0H5.166V-.72H1.557V-2.943H4.9v-.72H1.557V-5.706H5.139v-.72H.7Zm5.49,0H7V-5.157H7.02L10.377,0h.936V-6.426H10.5v5.211h-.018L7.1-6.426H6.192ZM17.73,0h.54V-3.384H15.453v.72h2.052a1.936,1.936,0,0,1-2.061,2.1,2.313,2.313,0,0,1-2.2-2.565c0-1.377.648-2.727,2.2-2.727a1.74,1.74,0,0,1,1.908,1.413h.855a2.5,2.5,0,0,0-2.763-2.133c-2.034,0-3.06,1.62-3.06,3.492a3.08,3.08,0,0,0,3.06,3.24A2.516,2.516,0,0,0,17.505-.8Z" transform="translate(1.988 13.833)" fill="#161615"/>
+  </g>
+</svg>

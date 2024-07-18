@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="22.524" height="13.518" viewBox="0 0 22.524 13.518">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Retângulo_149" data-name="Retângulo 149" width="22.524" height="13.518" transform="translate(0 0)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="tecla_on" transform="translate(0 0)">
+    <g id="Grupo_12896" data-name="Grupo 12896">
+      <g id="Grupo_12895" data-name="Grupo 12895" clip-path="url(#clip-path)">
+        <path id="Caminho_13022" data-name="Caminho 13022" d="M22.149.517c0-.082-4.875-.142-10.887-.142S.378.435.376.517l0,.045.33,12.447c0,.074,4.863.135,10.554.135s10.559-.061,10.559-.135L22.145.562Z" fill="#3b76ad"/>
+        <path id="Caminho_13023" data-name="Caminho 13023" d="M22.149.517c0-.082-4.875-.142-10.887-.142S.378.435.376.517l0,.045.33,12.447c0,.074,4.863.135,10.554.135s10.559-.061,10.559-.135L22.145.562Z" fill="none" stroke="#24539f" stroke-miterlimit="10" stroke-width="0.75"/>
+        <path id="Caminho_13024" data-name="Caminho 13024" d="M20.914,1.466c0-.064-4.275-.117-9.549-.117s-9.549.053-9.551.117l0,.043L2.1,11.841c0,.063,4.266.111,9.262.111s9.26-.048,9.26-.111l.287-10.332Z" fill="#3b76ad"/>
+        <path id="Caminho_13025" data-name="Caminho 13025" d="M20.914,1.466c0-.064-4.275-.117-9.549-.117s-9.549.053-9.551.117l0,.043L2.1,11.841c0,.063,4.266.111,9.262.111s9.26-.048,9.26-.111l.287-10.332Z" fill="none" stroke="#24539f" stroke-miterlimit="10" stroke-width="0.75"/>
+      </g>
+    </g>
+    <text id="ON" transform="matrix(1, -0.016, 0.016, 1, 3.6, 6.991)" fill="#fff" font-size="6" font-family="HelveticaNeueLTStd-Roman, Helvetica Neue LT Std"><tspan x="0" y="0">ON</tspan></text>
+    <text id="C" transform="translate(14.66 10.367) rotate(-0.52)" fill="#fff" font-size="6" font-family="HelveticaNeueLTStd-Roman, Helvetica Neue LT Std"><tspan x="0" y="0">C</tspan></text>
+    <g id="Grupo_12898" data-name="Grupo 12898">
+      <g id="Grupo_12897" data-name="Grupo 12897" clip-path="url(#clip-path)">
+        <line id="Linha_2" data-name="Linha 2" y1="5.909" x2="6.329" transform="translate(9.706 4.45)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.75"/>
+      </g>
+    </g>
+  </g>
+</svg>

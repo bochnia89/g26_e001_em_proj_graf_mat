@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="27.448" height="23.3" viewBox="0 0 27.448 23.3">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Retângulo_205" data-name="Retângulo 205" width="27.448" height="23.3" transform="translate(0 0)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="cie_tecla_igual" transform="translate(0 0)">
+    <g id="Grupo_13000" data-name="Grupo 13000">
+      <g id="Grupo_12999" data-name="Grupo 12999" clip-path="url(#clip-path)">
+        <path id="Caminho_13223" data-name="Caminho 13223" d="M27.072,6.284c0-.109-5.426-.187-13.349-.187S.378,6.175.375,6.284l0,.061.432,16.4c0,.1,5.41.176,12.913.176s12.916-.079,12.916-.176l.43-16.4Z" fill="#b9c73a"/>
+        <path id="Caminho_13224" data-name="Caminho 13224" d="M27.072,6.284c0-.109-5.426-.187-13.349-.187S.378,6.175.375,6.284l0,.061.432,16.4c0,.1,5.41.176,12.913.176s12.916-.079,12.916-.176l.43-16.4Z" fill="none" stroke="#669d3e" stroke-miterlimit="10" stroke-width="0.75"/>
+        <path id="Caminho_13225" data-name="Caminho 13225" d="M25.445,7.536c0-.086-4.635-.154-11.584-.154S2.275,7.45,2.272,7.536l0,.053.38,13.619c0,.082,4.621.146,11.206.146s11.2-.064,11.2-.146l.377-13.619Z" fill="#b9c73a"/>
+        <path id="Caminho_13226" data-name="Caminho 13226" d="M25.445,7.536c0-.086-4.635-.154-11.584-.154S2.275,7.45,2.272,7.536l0,.053.38,13.619c0,.082,4.621.146,11.206.146s11.2-.064,11.2-.146l.377-13.619Z" fill="none" stroke="#669d3e" stroke-miterlimit="10" stroke-width="0.75"/>
+      </g>
+    </g>
+    <path id="Caminho_13454" data-name="Caminho 13454" d="M7.331-5.153H.638v.9H7.331ZM.638-1.567H7.331v-.9H.638Z" transform="translate(9.74 18.877)" fill="#161615"/>
+    <g id="Grupo_13002" data-name="Grupo 13002">
+      <g id="Grupo_13001" data-name="Grupo 13001" clip-path="url(#clip-path)">
+        <path id="Caminho_13455" data-name="Caminho 13455" d="M3.755.07c.605,0,.835-.45.835-1s-.25-1-.835-1-.835.455-.835,1S3.15.07,3.755.07Zm-.385-1c0-.335.07-.67.38-.67s.39.335.39.67c0,.375-.11.67-.39.67S3.37-.55,3.37-.925ZM1.245-1.58c.6,0,.835-.45.835-1s-.25-.995-.835-.995S.41-3.115.41-2.575.64-1.58,1.245-1.58Zm-.385-1c0-.335.07-.67.38-.67s.39.335.39.67c0,.375-.11.67-.39.67S.86-2.2.86-2.575ZM1.3.12h.39L3.625-3.62h-.38Z" transform="translate(11.224 4.15)" fill="#e23734"/>
+      </g>
+    </g>
+  </g>
+</svg>
