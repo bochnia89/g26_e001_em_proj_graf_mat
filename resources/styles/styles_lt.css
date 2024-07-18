@@ -1395,7 +1395,9 @@ p.p2textosemrecuosubitem::before {
 .p2textomarcadorsemrecuocont {
     margin: 0.5em 0 0.5em 2em;
 }
-.p2textomarcadorsemrecuoromano{}
+.p2textomarcadorsemrecuoromano{
+    margin: 0.5em 0 0.5em 2.5em;
+}
 .p2textosemrecuonum{
     margin: 0.5em 0 0.5em 2em;
 }
@@ -2159,7 +2161,9 @@ p.p3intermediarioitem::before {
 .p3intermediariomarcadorcont {
     margin: 0.5em 0 0.5em 2em;
 }
-.p3intermediariomarcadorromano{}
+.p3intermediariomarcadorromano{
+    margin: 0.5em 0 0.5em 2.8em;
+}
 ul.p3intermediariomarcadoritem{
     list-style: disc;
     margin: 0.5em 0 0.5em 3em;
@@ -2175,9 +2179,15 @@ p.p3intermediariomarcadoritem{
 .p3intermediariosemrecuo {
     margin: 0.5em 0;
 }
-.p3intermediariosemrecuomarcador{}
-.p3intermediariosemrecuomarcadorcont{}
-.p3intermediariosemrecuomarcadorromano{}
+.p3intermediariosemrecuomarcador{
+    margin: 0.5em 0 0.5em 2.5em;
+}
+.p3intermediariosemrecuomarcadorcont{
+    margin: 0.5em 0 0.5em 2.5em;
+}
+.p3intermediariosemrecuomarcadorromano{
+    margin: 0.5em 0 0.5em 3em;
+}
 
 ul.p3intermediariosemrecuoitem {
     list-style: disc;
@@ -2722,7 +2732,7 @@ d0carimbo
 d0linha
 d0boxpoema
 d0separabloco
-d0tabuleiro
+d0selotema
 */
 .d0secsumario{}
 .d0sumariosecinicial{}
@@ -2864,7 +2874,8 @@ d0tabuleiro
 .d0linha{}
 .d0boxpoema{}
 .d0separabloco{}
-.d0tabuleiro{}
+.d0selotema{}
+
 
 /*👉ESTILOS DIGITAL: página crédito👈*/
 /* 
