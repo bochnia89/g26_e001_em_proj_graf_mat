@@ -200,6 +200,12 @@ p0tit6mpnegativo
 }
 .p0tit6mpnegativo{}
 
+.d0box_geralmp>.o4dicabox>.box {
+    background: var(--branco);
+    border-radius: 0 0.5em 0.5em 0.5em;
+    padding: 1em;
+}
+
 /*👉SUMÁRIO👈*/
 /* 
 p1sumariomppeso1
