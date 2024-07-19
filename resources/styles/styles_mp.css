@@ -35,6 +35,8 @@ p0tit6mpnegativo
     max-width: 100%;
     padding: 2em 1px 0 1px; 
 }
+.p0tit1mpnumpv{}
+.p0tit1mppv{}
 .p0tit1mp{
     background: var(--preto);
     color: var(--branco);
@@ -224,7 +226,7 @@ p1sec2mptit2
 
 .p1sumariompextrapeso1{}
 .p1sumariompextrapeso2{}
-
+.p1sumariompextrapeso3{}
 .p1sumariompfinais{}
 
 /*👉SEÇÃO👈*/
@@ -1471,6 +1473,7 @@ o2esquemabox
 /*👉=========== ESTILOS DE CARACTER =============👈*/
 /* 
 c5indicacaomp
+c0destaqueagrupadamp
 c0destaqueletramp
 c0destaqueletracitacaomp
 c0destaquenumeromp
@@ -1480,8 +1483,9 @@ c0destaquequestaonumeromp
 c0destaquesomatoriamp
 c0bulletnumitemmp
 c0bulletsubitemmp
+c0destaquecapsummp
 */
-
+.c0destaqueagrupadamp{}
 .c5indicacaomp{
     background: var(--preto);
     color: var(--branco);
@@ -1553,6 +1557,7 @@ c0bulletsubitemmp
 
 .c0destquecapmp{} /* Especifico do resolução */
 .c0destaquesecaomp{}/* Especifico do resolução */
+.c0destaquecapsummp{}
 
 /*👉ESTILOS DE OBJETO👈*/
 /* 
