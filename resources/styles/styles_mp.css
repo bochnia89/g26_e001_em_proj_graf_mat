@@ -351,15 +351,13 @@ p1sec10mptit4
 .p1sec3mptit4{}
 
 .p1sec4mptit1 {
-    background:var(--turquesa1) ;
-    color: var(--manuFundo);
+    color: var(--turquesa1);
     font-family: var(--titulo);
     font-size: var(--peso7);
     font-weight: bold;
     text-align: left;
-    width: max-content;
-    padding: 0.2em 1em;
-    margin: -1.5em 0 0.5em 0;
+    width: 100%;
+    margin: 0 0.5em 0 0;
 }
 .p1sec4mptit2{
     font-family: var(--titulo);
@@ -1597,7 +1595,12 @@ o0sec10mp
     padding:2.5em 1em 1em 1em;
     margin:1em 0 1em 0;
 }
-.o0sec4mp{}
+.o0sec4mp{
+    background: var(--branco);
+    border:2px solid var(--turquesa2);
+    padding:2em 1em 1em 1em;
+    margin: 2em 0 1em 0;
+}
 .o0sec5mp{}
 .o0sec6mp{}
 .o0sec7mp{}
