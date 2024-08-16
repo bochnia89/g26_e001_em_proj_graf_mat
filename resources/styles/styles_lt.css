@@ -1889,6 +1889,9 @@ p2atvmarcadoritem
 p2atvmarcadoritemcont
 p2atvsomatoria
 p2atvsomatoriacont
+p2atvsemrecuomarcador
+p2atvsemrecuomarcadorcont
+p2atvsemrecuomarcadorromano
 */
 .p2atv,
 .p2atvcont,
@@ -1918,7 +1921,10 @@ p2atvsomatoriacont
 .p2atvmarcadoritem,
 .p2atvmarcadoritemcont,
 .p2atvsomatoria,
-.p2atvsomatoriacont {
+.p2atvsomatoriacont,
+.p2atvsemrecuomarcador,
+.p2atvsemrecuomarcadorcont,
+.p2atvsemrecuomarcadorromano, {
     font-family: var(--texto);
     font-size: var(--pesoPadrao);
     text-align: justify;
@@ -2129,6 +2135,9 @@ p.p2atvmarcadoritem::before {
     margin: 0.5em 0 0.5em 5em;
 }
 
+.p2atvsemrecuomarcador{}
+.p2atvsemrecuomarcadorcont{}
+.p2atvsemrecuomarcadorromano{}
 
 
 /*👉==================== TEXTOS PESO: intermediário ===================👈*/
@@ -2477,6 +2486,12 @@ p4iconeoed2
 
 .p4iconeoed2 {
     color: var(--faixaaudio);
+    margin: 0.5em 0;
+    font-weight: bold;
+}
+
+.p4iconeoed3 {
+    color: var(--transcricao);
     margin: 0.5em 0;
     font-weight: bold;
 }
@@ -3090,6 +3105,7 @@ c0sumariosecao5
 /* 
 c0destaqueoed
 c0destaqueoed2
+c0destaqueoed3
 c0destaqueletra
 c0destaqueletracitacao
 c0destaquenumero
@@ -3115,6 +3131,13 @@ c0destaquesecao 👉Estilo de caracter utilizado no sumário mp
 
 .c0destaqueoed2 {
     background: var(--faixaaudio);
+    color: var(--branco);
+    padding: 0.2em;
+    font-weight: bold;
+}
+
+.c0destaqueoed3 {
+    background: var(--transcricao);
     color: var(--branco);
     padding: 0.2em;
     font-weight: bold;
@@ -3294,6 +3317,12 @@ c3idiomasimuladorhiperlink
     color: var(--link);
     text-decoration: underline;
 }
+
+/* idioma citação */
+/* 
+c3idiomacitacaoitalico
+ */
+ .c3idiomacitacaoitalico{}
 
 /* (exceção no INDD - overprint) */
 /* 
@@ -3979,7 +4008,7 @@ o0pronunciation 👉 Especifico de inglês
     padding: 3em;
 }
 
-.o0medidaanimalbox {}
+.o4medidaanimalbox {}
 
 .o0boxpalavra {
     display: flex;
@@ -4454,40 +4483,40 @@ span.o4ficha2 {
     content: '';
     background: url(../images/pv_o4balao_dir.svg) no-repeat;
     background-size: 100%;
-    width: 15px;
+    width: 30px;
     height: 30px;
     position: absolute;
-    margin: 10px 0 0 -50px;
+    margin: -20px 0 0 15px;
 }
 
 .o4balaopensamento.direita::after {
     content: '';
     background: url(../images/pv_o4balaopensamento_dir.svg) no-repeat;
     background-size: 100%;
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 50px;
     position: absolute;
-    margin: 15px 0 0 -50px;
+    margin: -30px 0 0 10px;
 }
 
 .o4balao.esquerda::after {
     content: '';
     background: url(../images/pv_o4balao_esq.svg) no-repeat;
     background-size: 100%;
-    width: 15px;
+    width: 30px;
     height: 30px;
     position: absolute;
-    margin: 10px 0 0 40px;
+    margin: -20px 0 0 -47px;
 }
 
 .o4balaopensamento.esquerda::after {
     content: '';
     background: url(../images/pv_o4balaopensamento_esq.svg) no-repeat;
     background-size: 100%;
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 50px;
     position: absolute;
-    margin: 15px 0 0 40px;
+    margin: -30px 0 0 -52px;
 }
 
 .o4balaobranco {}
@@ -4505,20 +4534,20 @@ span.o4ficha2 {
     content: '';
     background: url(../images/pv_o4balaobranco_dir.svg) no-repeat;
     background-size: 100%;
-    width: 15px;
+    width: 30px;
     height: 30px;
     position: absolute;
-    margin: 10px 0 0 -50px;
+    margin: -20px 0 0 15px;
 }
 
 .o4balaobranco.esquerda::after {
     content: '';
     background: url(../images/pv_o4balaobranco_esq.svg) no-repeat;
     background-size: 100%;
-    width: 15px;
+    width:30px;
     height: 30px;
     position: absolute;
-    margin: 10px 0 0 40px;
+    margin: -18px 0 0 -45px;
 }
 
 .o4balaopensamentobranco.direita::after {
@@ -4710,7 +4739,25 @@ o5socialinsta
 o5redesocial
 o5redesocial2
 */
-.o5bilhete1 {}
+.o5bilhete1 {
+    background: var(--branco);
+    border: 2px solid var(--lilas1);
+    padding: 2em;
+    margin: 1.5em 0;
+    width: max-content;
+    max-width: 100%;
+}
+
+.o5bilhete1::before{
+    background: url(../images/adesivo_circuloazul.svg) no-repeat;
+    background-size: auto;
+    background-size: 100%;
+    content: '';
+    width: 28px;
+    height: 32px;
+    position: absolute;
+    margin: -48px 0 0 -10px;
+}
 
 .o5bilhete2 {}
 

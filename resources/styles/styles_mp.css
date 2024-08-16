@@ -414,9 +414,12 @@ p2textompsemrecuonumcont  👉Caso de uso no eja
 p2textompnumsemrecuo   👉Caso de uso no ensino médio 
 p2textompnumsemrecuocont  👉Caso de uso no ensino médio 
 p2textompsemrecuoletra
+p2textompsemrecuoletracont
+p2textompsemrecuoletraitem
 p2textompsemrecuoitem
 p2textompsemrecuosubitem
 p2textompsemrecuonumletra
+p2textompsemrecuonumletracont
 p2textompsemrecuonumitem
 p2textompsemrecuonumletraitem
 p2textompsemrecuoromano
@@ -431,9 +434,12 @@ p2textompsemrecuonumromanoitem
 .p2textompnumsemrecuo,   
 .p2textompnumsemrecuocont,  
 .p2textompsemrecuoletra,
+.p2textompsemrecuoletracont,
+.p2textompsemrecuoletraitem,
 .p2textompsemrecuoitem,
 .p2textompsemrecuosubitem,
 .p2textompsemrecuonumletra,
+.p2textompsemrecuonumletracont,
 .p2textompsemrecuonumitem,
 .p2textompsemrecuonumletraitem,
 .p2textompsemrecuoromano,
@@ -488,6 +494,23 @@ p.p2textompsemrecuoitem::before{
 .p2textompsemrecuoletra{
     margin: 0.5em 0 0.5em 2em ;
 }
+.p2textompsemrecuoletracont{
+    margin: 0.5em 0 0.5em 2em ;
+}
+ul.p2textompsemrecuoletraitem{
+    margin: 0.5em 0 0.5em 3em ;
+}
+ul.p2textompsemrecuoletraitem li::before{
+    content: '•';
+    font-size: 1.2em;
+    width: 10px;
+    height: 10px;
+    margin: 0 5px 0 -18px;
+    position: absolute;
+}
+p.p2textompsemrecuoletraitem{
+    margin: 0.5em 0 0.5em 3em ;
+}  
 ul.p2textompsemrecuoitem{}
 p.p2textompsemrecuoitem{}
 ul.p2textompsemrecuosubitem{
@@ -510,7 +533,9 @@ p.p2textompsemrecuosubitem{
 .p2textompsemrecuonumletra>.c0destaquenumeromp {  
     margin: 0 0 0 -58px;
   }
-
+.p2textompsemrecuonumletracont{
+    margin: 0.5em 0 0.5em 3.6em ;
+}
 .p2textompsemrecuonumitem{
     margin: 0.5em 0 0.5em 3.6em ;
 }
@@ -567,8 +592,10 @@ p2textompletracont
 p2textompletraitem
 p2textompletraitemcont
 p2textompmarcador
+p2textompmarcadorcont
 p2textompmarcadoritem
 p2textompmarcadorsemrecuo
+p2textompmarcadorsemrecuocont
 */
 .p2textomp,
 .p2textompitem,
@@ -582,8 +609,10 @@ p2textompmarcadorsemrecuo
 .p2textompletraitem,
 .p2textompletraitemcont,
 .p2textompmarcador,
+.p2textompmarcadorcont,
 .p2textompmarcadoritem,
-.p2textompmarcadorsemrecuo{
+.p2textompmarcadorsemrecuo,
+.p2textompmarcadorsemrecuocont{
     font-family: var(--texto);
     font-size: var(--pesoPadrao);
     text-align: justify;
@@ -658,6 +687,9 @@ p.p2textompletraitem::before{
 .p2textompmarcador{
     margin: 0.5em 0 0.5em 2.8em;
 }
+.p2textompmarcadorcont{
+    margin: 0.5em 0 0.5em 2.8em;
+}
 ul.p2textompmarcadoritem{
     list-style: disc;
     margin: 0.5em 0 0.5em 4em;
@@ -668,7 +700,9 @@ p.p2textompmarcadoritem{
 .p2textompmarcadorsemrecuo{
     margin: 0.5em 0 0.5em 2em;
 }
-
+.p2textompmarcadorsemrecuocont{
+    margin: 0.5em 0 0.5em 2em;
+}
 
 /*👉RESPOSTA E COMENTÁRIOS - QUESTÃO TEORIA👈*/
 /* 
@@ -811,7 +845,8 @@ p2atvmpletraromano
 p2atvmpletraromanocont
 p2atvmpnumitem
 p2atvmpnumletra
-p2atvmpnumletraitem  
+p2atvmpnumletraitem 
+p2atvmpnumletraitemcont  
 p2atvmpletraitem
 p2atvmpnumromano
 p2atvmpsomatoria
@@ -835,7 +870,8 @@ p2atvmpsomatoria
 .p2atvmpletraromanocont,
 .p2atvmpnumitem,
 .p2atvmpnumletra,
-.p2atvmpnumletraitem,  
+.p2atvmpnumletraitem,
+.p2atvmpnumletraitemcont,  
 .p2atvmpletraitem,
 .p2atvmpnumromano,
 .p2atvmpsomatoria{
@@ -934,6 +970,9 @@ p.p2atvmpletraitembullet{
     margin: 0 0 0 -60px;
   }
 .p2atvmpnumletraitem{
+    margin: 0.5em 0 0.5em 5.4em;
+}
+.p2atvmpnumletraitemcont{
     margin: 0.5em 0 0.5em 5.4em;
 }
 .p2atvmpnumletraitem>.c0destaquenumeromp {
@@ -1202,15 +1241,17 @@ p3citacaompnumero
 p3citacaompnumerocont
 p3citacaompsemrecuo
 p3citacaompsemrecuoletra
+p3citacaompsemrecuoletracont
 p3citacaompsemrecuoitem
+p3citacaompsemrecuoitemcont
 */
 
 .p3citacaomptit1,
 .p3citacaomptit2,
 .p3citacaompolho,
 .p3citacaomp,
-.p3citacaompitem,
 .p3citacaomppoema,
+.p3citacaompitem,
 .p3citacaompitemcont,
 .p3citacaompletra,
 .p3citacaompletracont,
@@ -1218,7 +1259,9 @@ p3citacaompsemrecuoitem
 .p3citacaompnumerocont,
 .p3citacaompsemrecuo,
 .p3citacaompsemrecuoletra,
-.p3citacaompsemrecuoitem{
+.p3citacaompsemrecuoletracont,
+.p3citacaompsemrecuoitem,
+.p3citacaompsemrecuoitemcont{
     font-family: var(--citacao);
     font-size: var(--pesoPadrao);
     text-align: justify;
@@ -1280,6 +1323,9 @@ margin:0 0 0 -26px ;
 .p3citacaompsemrecuoletra{
     margin: 0.5em 0 0.5em 2em;
 }
+.p3citacaompsemrecuoletracont{
+    margin: 0.5em 0 0.5em 2em;
+}
 ul.p3citacaompsemrecuoitem{
     list-style: disc;
     margin: 0.5em 0 0.5em 2em;
@@ -1295,7 +1341,9 @@ height:24px ;
 position: absolute;
 margin:0 0 0 -26px ;
 }
-
+blockquote.p3citacaompsemrecuoitemcont{
+    margin: 0.5em 0 0.5em 2em;
+}
 
 /*👉RESPOSTAS DE ATIVIDADES PROPOSTAS NO MANUAL👈*/
 /* 
@@ -1576,9 +1624,9 @@ c0destaquecapsummp
 }
 .c0bulletsubitemmp{} /* Estilo de caracter utilizado no manual em U */ 
 
-.c0destquecapsummp{}
+.c0destaquecapsummp{}
 
-.c0destquecapmp{} /* Especifico do resolução */
+.c0destaquecapmp{} /* Especifico do resolução */
 .c0destaquesecaomp{}/* Especifico do resolução */
 .c0destaquecapsummp{}
 

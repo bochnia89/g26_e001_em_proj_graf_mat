@@ -1,14 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="26.003" height="15.976" viewBox="0 0 26.003 15.976">
-  <defs>
-    <clipPath id="clip-path">
-      <path id="Caminho_7159" data-name="Caminho 7159" d="M0,7.169H26V-8.807H0Z" transform="translate(0 8.807)" fill="none"/>
-    </clipPath>
-  </defs>
-  <g id="balao_dir" transform="translate(0 0)">
-    <g id="Grupo_7234" data-name="Grupo 7234" transform="translate(0 0)" clip-path="url(#clip-path)">
-      <g id="Grupo_7233" data-name="Grupo 7233" transform="translate(0 -0.001)">
-        <path id="Caminho_7158" data-name="Caminho 7158" d="M0,0,24.312,13.482c2.485,1.379,2.2,2.494-.644,2.494H0" fill="#d9edcd"/>
-      </g>
-    </g>
-  </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 26 16" style="enable-background:new 0 0 26 16;" xml:space="preserve">
+<style type="text/css">
+	.st0{clip-path:url(#SVGID_00000123404082783172951220000008161960025192062337_);}
+	.st1{fill:#E2EDD0;}
+</style>
+<g id="balao_dir" transform="translate(0 0)">
+	<g>
+		<defs>
+			<rect id="SVGID_1_" width="26" height="16"/>
+		</defs>
+		<clipPath id="SVGID_00000181800098162578295980000006790952957320941450_">
+			<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+		</clipPath>
+		
+			<g id="Grupo_7234" transform="translate(0 0)" style="clip-path:url(#SVGID_00000181800098162578295980000006790952957320941450_);">
+			<g id="Grupo_7233" transform="translate(0 -0.001)">
+				<path id="Caminho_7158" class="st1" d="M0,0l24.3,13.5c2.5,1.4,2.2,2.5-0.6,2.5H0"/>
+			</g>
+		</g>
+	</g>
+</g>
 </svg>
