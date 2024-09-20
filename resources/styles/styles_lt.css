@@ -2869,6 +2869,7 @@ d0linha
 d0boxpoema
 d0separabloco
 d0selotema
+d0fracao
 */
 .d0secsumario {}
 
@@ -3039,6 +3040,7 @@ d0selotema
 .d0separabloco {}
 
 .d0selotema {}
+.d0fracao{}
 
 
 /*👉ESTILOS DIGITAL: página crédito👈*/
@@ -3445,13 +3447,29 @@ c4textotachado
 .c4glossariodestaqueitalico {}
 
 
-/*👉C4: Estilos de  👈*/
-.c5destaqueverbetedicionario {
+/*👉C5: Estilos de  👈*/
+/* 
+c5destaqueverbetedicionario
+c5indicacao
+c5extradestaque
+c5extraitalico
+c5extraitalicoidioma
+*/
+.c5destaqueverbetedicionario{
     color: var(--link);
 }
-
-.c5indicacao {}
-
+.c5indicacao{}
+.c5extradestaque{
+    color: #ae3cff;
+}
+.c5extraitalico{
+    font-style: italic;
+    color: #ae3cff;
+}
+.c5extraitalicoidioma{
+    font-style: italic;
+    color: #ae3cff;
+}
 
 
 /* ESTILO DE OBJETO */
@@ -3464,10 +3482,12 @@ c4textotachado
 o0mpg
 o0facsimile
 o0secapresentacao
+o0sumariobox1
 o0secconheca
 o0secconheca2
 o0secconheca3
 o0aberturabox
+o0aberturaintrobox
 o0aberturaatvbox
 o0aberturaobjbox
 o0aberturalegenda
@@ -3530,6 +3550,7 @@ o0sugestcomp
 o4medidaanimalbox
 o0boxpalavra
 o0pronunciation 👉 Especifico de inglês
+o0transcricao
 */
 .o0mpg {}
 
@@ -3549,9 +3570,13 @@ o0pronunciation 👉 Especifico de inglês
     padding: 3em;
 }
 
+.o0sumariobox1{}
+
 .o0secconheca2 {}
 
 .o0aberturabox {}
+
+.o0aberturaintrobox{}
 
 .o0aberturaatvbox {
     margin: 1em 0;
@@ -4036,6 +4061,8 @@ o0pronunciation 👉 Especifico de inglês
     content: '';
 }
 
+.o0transcricao{}
+
 /*👉O1: Estilos para boxes genéricos, suportes e papeletas👈*/
 /* 
 o1boxfundobranco
@@ -4043,6 +4070,8 @@ o1boxfundoazul1
 o1boxfundoazul2
 o1boxfundoroxo1
 o1boxfundoroxo2
+o1boxfundorosa1
+o1boxfundorosa2
 o1boxfundoamarelo1
 o1boxfundolaranja1
 o1boxfundolaranja2
@@ -4149,6 +4178,9 @@ ul.o1boxfundoazul1>li {
 .o1boxfundoroxo1 {}
 
 .o1boxfundoroxo2 {}
+
+.o1boxfundorosa1{}
+.o1boxfundorosa2{}
 
 .o1boxfundoamarelo1 {}
 
@@ -4376,6 +4408,7 @@ o4atencaobox
 o4conceitobox
 o4avaliacaobox
 o4vocabulariobox
+o4vocabularioboxbranco
 o4glossariobox
 o4etapabox
 o4exemplobox
@@ -4389,6 +4422,7 @@ o4recadoimagem4
 o4tipofrase1
 o4tipofrase2
 o4tipofrase3
+o4ideiabox
 */
 .o4questaobox {}
 
@@ -4646,6 +4680,12 @@ span.o4ficha2 {
     margin: 1em 0;
 }
 
+.o4vocabularioboxbranco{
+    background: var(--branco);
+    padding: 0.2em 1em;
+    margin: 1em 0;
+}
+
 .o4glossariobox {}
 
 .o4etapabox {
@@ -4706,6 +4746,8 @@ span.o4ficha2 {
 .o4tipofrase2 {}
 
 .o4tipofrase3 {}
+
+.o4ideiabox{}
 
 /*👉O5: Papeletas e papelaria👈*/
 /* 
