@@ -86,13 +86,14 @@ strong {
 }
 
 em {
-    font-style: italic;
+    font-style: italic !important;
+    font-weight: 500 !important;
 }
 
 strong em,
 em strong {
-    font-weight: bold;
-    font-style: italic;
+    font-weight: bold !important;
+    font-style: italic !important;
 }
 
 table {
@@ -436,7 +437,10 @@ p1sumariopeso2numero
 p1sumariooedpv
 p1sumariooedpeso1
 p1sumariooedpeso2
-
+p1sumariooedpeso3
+p1sumarioaudiospeso1
+p1sumarioaudiospeso2
+p1sumarioaudiospeso3
 */
 .p1sumariopv {}
 
@@ -548,6 +552,12 @@ p1sumariooedpeso2
 .p1sumariooedpeso1 {}
 
 .p1sumariooedpeso2 {}
+
+.p1sumariooedpeso3{}
+
+.p1sumarioaudiospeso1{}
+.p1sumarioaudiospeso2{}
+.p1sumarioaudiospeso3{}
 
 /*👉=================== ESTILOS MIOLO ================================👈*/
 /* TÍTULOS  */
@@ -1293,8 +1303,16 @@ p.p2sugestcompitem {
 
 .p2sugestcompcoment {
     text-align: justify;
-    margin: 0 0 1em 1.5em;
+    margin: 0 0 1em 0.5em;
 }
+
+/*👉TRANSCRIÇÃO👈*/
+/* 
+p1transcricaotit1
+p1transcricaotit2
+*/
+.p1transcricaotit1{}
+.p1transcricaotit2{}
 
 /*👉REFERÊNCIAS BIBLIOGRAFICAS👈*/
 /* 
@@ -1341,7 +1359,6 @@ p2referenciasbibliocoment
     word-break: break-all;
     font-family: var(--texto);
     font-size: var(--pesoPadrao);
-    font-weight: bold;
     text-align: left;
 }
 
@@ -1353,6 +1370,20 @@ p2referenciasbibliocoment
     font-size: var(--pesoPadrao);
     text-align: justify;
 }
+
+/*👉GLOSSÁRIO👈*/
+/*
+p1glossariotit1
+p1glossariotit2
+p2glossario
+p2glossarioitem
+p2glossariocoment
+*/
+.p1glossariotit1{}
+.p1glossariotit2{}
+.p2glossario{}
+.p2glossarioitem{}
+.p2glossariocoment{}
 
 /*👉======= TEXTOS PESO: principal =======👈*/
 /* TEXTO SEM RECUO PRINCIPAL */
@@ -1973,7 +2004,7 @@ ul.p2atvsubitem {
 
 ul.p2atvsubitem li::before {
     content: '•';
-    color: var(--verde1);
+    color: var(--preto);
     font-size: 1.2em;
     margin: 0 0 0 -0.8em;
     position: absolute;
@@ -1986,7 +2017,7 @@ p.p2atvsubitem {
 p.p2atvsubitem::before {
     content: '';
     /*content: '•';*/
-    color: var(--verde1);
+    /*color: var(--preto);*/
     font-size: 1.2em;
     margin: 0 0 0 -0.8em;
     position: absolute;
@@ -2546,6 +2577,8 @@ p4iconeoed2
     width: 100px;
 }
 
+.p4cotanegativo{}
+
 .p4cotamarcador {
     margin: 0.5em 0 0.5em 2em;
 }
@@ -2640,9 +2673,14 @@ p4resposta
     margin: 0.2em 0 0.2em 1.5em;
 }
 
-.p2atv+.p4resposta {
+.p2atv+.p4resposta,
+.p2atvcont+.p4resposta {
     margin: 0.2em 0 0.2em 2em;
 }
+
+/* Página */
+.p5paginacao{}
+.p5paginacaoextenso{}
 
 /*👉TEXTOS SUPORTE👈*/
 /* Balão de fala */
@@ -3091,6 +3129,15 @@ c0sumariosecao2
 c0sumariosecao3
 c0sumariosecao4
 c0sumariosecao5
+c0sumdestaque1
+c0sumdestaque2
+c0sumdestaque3
+c0sumdestaque4
+c0sumdestaque5
+c0sumdestaquecap
+c0sumdestaqueuni
+c0sumpagina
+c0sumpontilhado
 */
 .c0sumariosecao1 {}
 
@@ -3101,6 +3148,16 @@ c0sumariosecao5
 .c0sumariosecao4 {}
 
 .c0sumariosecao5 {}
+
+.c0sumdestaque1{}
+.c0sumdestaque2{}
+.c0sumdestaque3{}
+.c0sumdestaque4{}
+.c0sumdestaque5{}
+.c0sumdestaquecap{}
+.c0sumdestaqueuni{}
+.c0sumpagina{}
+.c0sumpontilhado{}
 
 
 /* Geral */
@@ -3122,6 +3179,7 @@ c0destaqueuni
 c0destaquecap
 c0destaquecapmp 👉Estilo de caracter utilizado no sumário mp  
 c0destaquesecao 👉Estilo de caracter utilizado no sumário mp 
+c0destaquebullet
 */
 
 .c0destaqueoed {
@@ -3229,8 +3287,7 @@ c0destaquesecao 👉Estilo de caracter utilizado no sumário mp
 /* Estilo de caracter utilizado no sumário mp */
 .c0destaquesecao {}
 
-/* Estilo de caracter utilizado no sumário mp */
-
+.c0destaquebullet{}
 
 /*👉C1: Estilos de bold e itálico👈*/
 /* 
@@ -3297,6 +3354,8 @@ c3idiomabold
 c3idiomaitalico
 c3idiomabolditalico
 c3idiomasimuladorhiperlink
+c3idiomaglossariodestaque
+c3idiomaglossariodestaqueitalico
 */
 .c3idioma {
     background: var(--vermelho2);
@@ -3319,6 +3378,9 @@ c3idiomasimuladorhiperlink
     color: var(--link);
     text-decoration: underline;
 }
+
+.c3idiomaglossariodestaque{}
+.c3idiomaglossariodestaqueitalico{}
 
 /* idioma citação */
 /* 
@@ -3379,6 +3441,8 @@ c4ordinal
 c4ordinalbold
 c4ordinalnegativo
 c4ordinalresposta
+c4ordinalrespostabold
+c4ordinalsobrescrito
 c4simuladorhiperlink
 c4linhalacunaresposta
 c4vocabulariodestaque
@@ -3386,6 +3450,8 @@ c4vocabulariodestaqueitalico
 c4glossariodestaque
 c4glossariodestaqueitalico
 c4textotachado
+c4textosublinhadoidioma
+c4textosublinhado
 */
 .c4cifrao {}
 
@@ -3419,6 +3485,8 @@ c4textotachado
     font-weight: bold;
 }
 
+.c4ordinalsobrescrito{}
+
 .c4simuladorhiperlink {
     color: var(--link);
     font-size: var(--pesoPadrao);
@@ -3428,6 +3496,9 @@ c4textotachado
 .c4textotachado {
     text-decoration: line-through;
 }
+
+.c4textosublinhadoidioma{}
+.c4textosublinhado{}
 
 .c4linhalacunaresposta {}
 
@@ -3471,6 +3542,14 @@ c5extraitalicoidioma
     color: #ae3cff;
 }
 
+/*👉 Troca de caractere 👈*/
+/*
+trocacaracter1
+trocacaracter2
+*/
+.trocacaracter1{}
+.trocacaracter2{}
+
 
 /* ESTILO DE OBJETO */
 
@@ -3493,6 +3572,7 @@ o0aberturaobjbox
 o0aberturalegenda
 o0aberturaimgmini
 o0secrespostas
+o0secrespostasa
 o0sec1
 o0sec2
 o0sec3
@@ -3545,6 +3625,7 @@ o0sec10box2
 o0sec10box3
 o0parasabermais
 o0referencias
+o0referenciasa
 o0pronuncia
 o0sugestcomp
 o4medidaanimalbox
@@ -3617,6 +3698,11 @@ o0transcricao
 
 .o0secrespostas {
     background: url(../images/pv_apresentacao.svg) top left no-repeat var(--branco);
+    padding: 3em;
+}
+
+.o0secrespostasa {
+    background: url(../images/pv_bibliografia_cont.svg) top left no-repeat;
     padding: 3em;
 }
 
@@ -4028,6 +4114,11 @@ o0transcricao
     padding: 3em;
 }
 
+.o0referenciasa {
+    background: url(../images/pv_bibliografia_cont.svg) top left no-repeat var(--branco);
+    padding: 3em;
+}
+
 .o0sugestcomp {
     background: url(../images/pv_apresentacao.svg) top left no-repeat var(--branco);
     padding: 3em;
@@ -4138,7 +4229,12 @@ ul.o1boxfundobranco>li {
 }
 
 div.o1boxfundoazul1 {
-    padding: 0.2em 1em;
+    padding: 1em;
+    margin: 0.5em;
+}
+
+div.o1boxfundobranco {
+    padding: 1em;
     margin: 0.5em;
 }
 
@@ -4283,7 +4379,43 @@ ul.o1boxfundoverde2>li {
 
 .o1boxfioroxo1 {}
 
-.o1boxfioazul1 {}
+.o1boxfioazul1 {
+    border: 2px solid var(--azul1);
+    border-radius: 0.5em;
+    max-width: max-content;
+}
+
+div.o1boxfioazul1>.p3intermediariosemrecuo {
+    padding: 0em 0em 0em 1.2em;
+    margin: 0.5em;
+}
+
+p.o1boxfioazul1 {
+    padding: 0.4em 1em;
+    margin: 1em 0;
+}
+
+span.o1boxfioazul1 {
+    padding: 0.2em;
+}
+
+ul.o1boxfioazul1 {
+    border: 0px solid transparent !important;
+    background: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em 1.4em;
+    width: max-content;
+    max-width: 90%;
+    margin: 1em 0;
+}
+
+ul.o1boxfioazul1>li {
+    border: 2px solid var(--azul1);
+    border-radius: 0.5em;
+    padding: 0.2em 1em;
+    max-width: 100%;
+}
 
 .o1boxfioverde1 {}
 
@@ -5398,6 +5530,40 @@ o6fluxogramadecisao
 .o6fluxogramaacao {}
 
 .o6fluxogramadecisao {}
+
+/*👉07: Estilos para Linha do tempo👈*/
+/* TODO: novos estilos 
+o7linhatempocaixatexto
+o7linhatempodestaquedata
+o7linhatempolinhaeixo
+o7linhatempolinha1
+o7linhatempolinha2
+o7linhatempolinha3
+o7linhatempolinha4
+o7linhatempolinha5
+o7linhatempolinha6
+o7linhatempoperiodo1
+o7linhatempoperiodo2
+o7linhatempoperiodo3
+o7linhatempoperiodo4
+o7linhatempoperiodo5
+o7linhatempoperiodo6
+*/
+.o7linhatempocaixatexto{}
+.o7linhatempodestaquedata{}
+.o7linhatempolinhaeixo{}
+.o7linhatempolinha1{}
+.o7linhatempolinha2{}
+.o7linhatempolinha3{}
+.o7linhatempolinha4{}
+.o7linhatempolinha5{}
+.o7linhatempolinha6{}
+.o7linhatempoperiodo1{}
+.o7linhatempoperiodo2{}
+.o7linhatempoperiodo3{}
+.o7linhatempoperiodo4{}
+.o7linhatempoperiodo5{}
+.o7linhatempoperiodo6{}
 
 /*👉OE: Elementos vindos da editora👈*/
 /* 
