@@ -11,6 +11,7 @@
 
 html {
     scroll-behavior: smooth;
+    
 }
 
 body {
@@ -423,6 +424,7 @@ p1sumariopv
 
 p1seciniciaistit1
 p1seciniciaistit2
+p1seciniciaistit3
 p1sumariopeso1pv
 p1sumariopeso1
 p1sumariopeso2
@@ -442,7 +444,11 @@ p1sumarioaudiospeso1
 p1sumarioaudiospeso2
 p1sumarioaudiospeso3
 */
-.p1sumariopv {}
+.p1sumariopv {
+    font-size: var(--peso1);
+    font-weight: bold;
+    padding: 0.2em 1.5em;
+}
 
 .secsumario {
     background: url(../images/pv_apresentacao.svg) top left no-repeat;
@@ -462,7 +468,7 @@ p1sumarioaudiospeso3
 }
 
 .p1seciniciaistit1 {
-    background: var(--apresentacao);
+    background: var(--lilas4);
     border-radius: 5em;
     font-style: var(--titulo);
     font-size: var(--peso4);
@@ -477,6 +483,7 @@ p1sumarioaudiospeso3
     font-size: var(--pesoPadrao);
     font-weight: bold;
 }
+.p1seciniciaistit3{}
 
 .p1sumariopeso1pv {
     background: var(--preto);
@@ -496,7 +503,7 @@ p1sumarioaudiospeso3
 }
 
 .p1sumariopeso1>a {
-    color: var(--roxo2);
+    color: var(--preto);
     font-weight: bold;
     font-size: var(--peso7);
 }
@@ -515,14 +522,12 @@ p1sumarioaudiospeso3
 .p1sumariopeso3>a {
     color: var(--preto);
     font-size: var(--pesoPadrao);
-    font-weight: 400;
     margin: 0 0 0 0em;
 }
 .p1sumariopeso4{}
 .p1sumariopeso4>a {
     color: var(--preto);
     font-size: var(--peso9);
-    font-weight: 400;
     margin: 0 0 0 1em;
 }
 
@@ -531,8 +536,9 @@ p1sumarioaudiospeso3
 .p1sumarioextrapeso1 {}
 .p1sumarioextrapeso2 {}
 .p1sumarioextrapeso2>a {
-    color: var(--preto);
+    color: var(--roxo1);
     font-weight: bold;
+    font-size: var(--peso8);
 }
 .p1sumarioextrapeso2>a>.c0destaquecapmp {
     background: var(--roxo2);
@@ -547,7 +553,13 @@ p1sumarioaudiospeso3
 
 .p1sumariopeso2numero {}
 
-.p1sumariooedpv {}
+.p1sumariooedpv {
+    background: var(--oed);
+    color: var(--branco);
+    padding: 0.3em;
+    font-weight: bold;
+    width: max-content;;
+}
 
 .p1sumariooedpeso1 {}
 
@@ -569,6 +581,7 @@ p0tit2
 p0tit2numpv
 p0tit2pv
 p0tit3
+p0tit3pv
 p0tit4
 p0tit5
 p0tit6
@@ -584,6 +597,7 @@ p0tit6negativo
 .p0tit2numpv,
 .p0tit2pv,
 .p0tit3,
+.p0tit3pv,
 .p0tit4,
 .p0tit5,
 .p0tit6,
@@ -645,6 +659,7 @@ p0tit6negativo
     padding: 0;
 
 }
+.p0tit3pv{}
 
 .p0tit3::before {
     background: url(../images/pv_tit3.svg) left no-repeat;
@@ -1337,9 +1352,13 @@ p.p2sugestcompitem {
 /* 
 p1transcricaotit1
 p1transcricaotit2
+p1transcricaotit3
 */
-.p1transcricaotit1{}
+.p1transcricaotit1{
+    
+}
 .p1transcricaotit2{}
+.p1transcricaotit3{}
 
 /*👉REFERÊNCIAS BIBLIOGRAFICAS👈*/
 /* 
@@ -1931,6 +1950,7 @@ p2atvitemletracont
 p2atvletra
 p2atvletracont
 p2atvletramarcador
+p2atvletramarcadorcont
 p2atvletramarcadorromano
 p2atvletraromano
 p2atvletraromanocont
@@ -1964,6 +1984,7 @@ p2atvsemrecuomarcadorromano
 .p2atvletra,
 .p2atvletracont,
 .p2atvletramarcador,
+.p2atvletramarcadorcont,
 .p2atvletramarcadorromano,
 .p2atvletraromano,
 .p2atvletraromanocont,
@@ -2071,6 +2092,10 @@ p.p2atvsubitem::before {
 }
 
 .p2atvletramarcador {
+    margin: 0.5em 0 0.5em 4em;
+}
+
+.p2atvletramarcadorcont{
     margin: 0.5em 0 0.5em 4em;
 }
 
@@ -2815,10 +2840,11 @@ figure>.p5marcador {
 
 .p5marcadorquestao {
     background: var(--preto);
+    border-radius: 0.4em 0.4em 0 0;
     color: var(--branco);
+    font-family: var(--titulo);
     font-weight: bold;
-    text-align: center;
-    padding: 2px;
+    padding: 0.2em 0.5em;
 
 }
 
@@ -2893,11 +2919,30 @@ p5aberturaobjtexto
     margin: 0.5em 0 0.5em 1em;
 }
 
+
+/*👉PÁGINA INFO👈*/
+/*
+p6infoautorformacao
+p6infoautornome
+p6infocargoresponsavel
+p6infoeditora
+p6infografica
+p6infolei
+*/
+.p6infoautorformacao{}
+.p6infoautornome{}
+.p6infocargoresponsavel{}
+.p6infoeditora{}
+.p6infografica{}
+.p6infolei{}
+
+
 /*👉ESTILOS EXCLUSIVOS DO DIGITAL (Link)👈*/
 /* 
 d0secsumario
 d0sumariosecinicial
 d0navsumario
+d0sumariooed
 d0orientacaousooed
 d0groupline
 d0grouptit
@@ -2936,11 +2981,22 @@ d0separabloco
 d0selotema
 d0fracao
 */
-.d0secsumario {}
+.d0secsumario {
+    background: url(../images/pv_apresentacao.svg) top left no-repeat; 
+    padding: 3em;
+}
 
 .d0sumariosecinicial {}
 
 .d0navsumario {}
+.d0navsumario li{
+    margin: 0.8em 0;
+}
+
+.d0sumariooed{}
+.d0sumariooed li{
+    margin: 0.8em 0;
+}
 
 .d0orientacaousooed {}
 
@@ -2967,6 +3023,7 @@ d0fracao
     background: url(../images/bg_abertura_bottom.svg) bottom center no-repeat;
     background-size: 100%;
     padding-bottom: 1em;
+    background-color: var(--roxo3);
 }
 
 
@@ -3165,6 +3222,8 @@ c0sumdestaquecap
 c0sumdestaqueuni
 c0sumpagina
 c0sumpontilhado
+c0sumarioaudio
+c0sumariooed
 */
 .c0sumariosecao1 {}
 
@@ -3185,6 +3244,8 @@ c0sumpontilhado
 .c0sumdestaqueuni{}
 .c0sumpagina{}
 .c0sumpontilhado{}
+.c0sumarioaudio{}
+.c0sumariooed{}
 
 
 /* Geral */
@@ -3586,12 +3647,17 @@ trocacaracter2
 /* Estilos de objeto: APRESENTAÇÃO E CONHEÇA */
 /* 
 o0mpg
+o0infofichacatalografica
 o0facsimile
 o0secapresentacao
 o0sumariobox1
 o0secconheca
 o0secconheca2
 o0secconheca3
+o0secconhecabox1
+o0secconhecabox2
+o0secconhecabox3
+o0secconhecabox4
 o0aberturabox
 o0aberturaintrobox
 o0aberturaatvbox
@@ -3647,6 +3713,7 @@ o0sec8box3
 o0sec9box
 o0sec9box2
 o0sec9box3
+o0sec9box4
 o0sec10box
 o0sec10box2
 o0sec10box3
@@ -3659,13 +3726,15 @@ o4medidaanimalbox
 o0boxpalavra
 o0pronunciation 👉 Especifico de inglês
 o0transcricao
+o0glossariobox
 */
 .o0mpg {}
+.o0infofichacatalografica{}
 
 .o0facsimile {}
 
 .o0secconheca {
-    background: url(../images/pv_apresentacao.svg) top left no-repeat var(--apresentacao);
+    background: url(../images/pv_apresentacao.svg) top left no-repeat var(--lilas4);
     padding: 3em;
 }
 
@@ -3674,13 +3743,31 @@ o0transcricao
 .o0secconheca3 {}
 
 .o0secapresentacao {
-    background: url(../images/pv_apresentacao.svg) top left no-repeat var(--apresentacao);
+    background: url(../images/pv_apresentacao.svg) top left no-repeat var(--lilas4);
     padding: 3em;
 }
 
-.o0sumariobox1{}
+.o0secapresentacao>.box{
+    border-left: 2px solid var(--roxo1);
+    border-bottom: 2px solid var(--roxo1);
+    border-radius: 0 1em 0 1em;
+    margin-top: -2em;
+}
+
+.o0sumariobox1{
+    background: var(--amarelo3);
+    border-radius: 1em;
+    width: max-content;
+    padding: 1em;
+}
 
 .o0secconheca2 {}
+.o0secconheca3 {}
+
+.o0secconhecabox1{}
+.o0secconhecabox2{}
+.o0secconhecabox3{}
+.o0secconhecabox4{}
 
 .o0aberturabox {}
 
@@ -3743,7 +3830,7 @@ o0transcricao
     background: url(../images/pv_p1sec1tit1.svg) no-repeat;
     background-size: auto;
     background-size: 98%;
-    padding: 0.6em 0 0 0;
+    padding: 0.5em 0 0 0;
 }
 
 .o0sec1>.box,
@@ -3866,7 +3953,8 @@ o0transcricao
 .o0sec5>.box>.o0sec5box2>div>.p1box1tit,
 .o0sec5>.box>.o0sec5box2>.p1box1tit,
 .o0sec5a>.box>.o0sec5box2>div>.p1box1tit,
-.o0sec5a>.box>.o0sec5box2>.p1box1tit {
+.o0sec5a>.box>.o0sec5box2>.p1box1tit,
+.o0sec6box2>.p1box1tit {
     background: var(--midiaticaEscuro);
     border-radius: 1em;
     color: var(--branco);
@@ -3909,7 +3997,8 @@ o0transcricao
 }
 
 .o0sec6>.box>.o0sec6box2>div>.p1box1tit,
-.o0sec6a>.box>.o0sec6box2>div>.p1box1tit {
+.o0sec6a>.box>.o0sec6box2>div>.p1box1tit,
+.o0sec6box2>.p1box1tit {
     background: var(--odsEscuro);
     border-radius: 1em;
     color: var(--branco);
@@ -4093,7 +4182,7 @@ o0transcricao
 
 .o0sec5box>.p1box1tit {
     background: var(--midiaticaEscuro);
-    border-radius: 0.5em;
+    border-radius: 1em;
     width: max-content;
     max-width: 100%;
     padding: 0.2em 1em;
@@ -4127,6 +4216,7 @@ o0transcricao
 .o0sec9box {}
 .o0sec9box2 {}
 .o0sec9box3 {}
+.o0sec9box4 {}
 
 .o0sec10box {}
 .o0sec10box2 {}
@@ -4148,6 +4238,11 @@ o0transcricao
 
 .o0sugestcomp {
     background: url(../images/pv_apresentacao.svg) top left no-repeat var(--branco);
+    padding: 3em;
+}
+
+.o0sugestcompa {
+    background: url(../images/pv_bibliografia_cont.svg) top left no-repeat var(--branco);
     padding: 3em;
 }
 
@@ -4180,6 +4275,7 @@ o0transcricao
 }
 
 .o0transcricao{}
+.o0glossariobox{}
 
 /*👉O1: Estilos para boxes genéricos, suportes e papeletas👈*/
 /* 
@@ -4191,6 +4287,7 @@ o1boxfundoroxo2
 o1boxfundorosa1
 o1boxfundorosa2
 o1boxfundoamarelo1
+o1boxfundoamarelo2
 o1boxfundolaranja1
 o1boxfundolaranja2
 o1boxfundoverde1
@@ -4306,7 +4403,7 @@ ul.o1boxfundoazul1>li {
 .o1boxfundorosa2{}
 
 .o1boxfundoamarelo1 {}
-
+.o1boxfundoamarelo2{}
 
 .o1boxfundolaranja1 {
     background: var(--estrategiaFundo);
@@ -5648,7 +5745,7 @@ oemamplieseurepertoriobox
     max-width: 100%;
     padding: 0 1em 0 1em;
     border: 2px solid var(--branco);
-    margin: 0.5em;
+    margin: -1em 0em 0em 0em;
 }
 
 .oemestrategias3 {}
@@ -5763,6 +5860,104 @@ oemamplieseurepertoriobox
         margin: 0 10px;
     }
 
+      /* COLUNAS E ALINHAMENTO */
+      .col2 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .col2c {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 16px;
+        max-width: 100%;
+    }
+
+    .col2s {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: start;
+        gap: 16px;
+    }
+
+    .largura25 {
+        width: 100% !important;
+    }
+
+    .largura45 {
+        width: 100% !important;
+    }
+
+    .largura33 {
+        width: 100% !important;
+    }
+
+    .d0box_aluno {
+        padding: 0.5em 0 1em 0;
+    }
+    .alinhamarcador{
+        max-width: 81% !important;
+        margin-left:3em !important;
+    } 
+    .alinhapalavras{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr); /* 6 colunas de tamanho igual */
+        gap: 10px; /* Espaçamento entre os itens */
+    }
+
+    /*👉TABELA MOBILE 👈*/
+    table, thead, tbody, th, td, tr{
+        display: block;
+    }
+
+    /* ABERTURA MOBILE */
+    .d0boxaberturatit {
+        background: url(../images/pv_capitulo.svg) top left no-repeat;
+          background-size: auto;
+        background-size: auto;
+        background-size: 100%;
+        display:block;
+        gap: 1em;
+        margin: 0 0 0 0;
+        max-width: 100%;
+        position:static;
+        width: 100%;
+        height: max-content;
+        padding: 1.5em 0 0 0;
+        border: 1px solid blue;
+        
+      }
+
+      .d0tit2 {
+        background: url(../images/pv_capitulo.svg) top left no-repeat var(--preto);
+        background-size: 100%;
+        color: var(--branco);
+        height: 60px;
+        padding: 1em 1em  0.5em 1em;
+        width: max-content;
+        margin: -1000em 0 0 0;
+        border: 1px solid red;
+
+      }
+    .p0tit2{
+      background: var(--branco);
+      border-radius: 1em;
+      font-size: 1.6em;
+      font-weight: bold;
+      line-height: 1.13em;
+      padding: 0.5em;
+      margin: 1em 10px 0 10px;
+      width: max-content;
+      max-width: 95%;       
+      height: max-content;
+    }
+
+
     /* Apresentação */
     .o0secconheca>.p1seciniciaistit1 {
         width: 300px;
@@ -5792,6 +5987,28 @@ oemamplieseurepertoriobox
 
 
     /*👉SEÇÕES MOBILE👈*/
+
+    /*👉Seção 1 Mobile👈*/
+    .o0sec1{
+        background-size: 700px;
+        padding: 0.4em 0;
+    }
+    .p1sec1tit1{
+        padding: 0.2em 0.5em;
+    }
+
+    /*👉Seção 2 Mobile👈*/
+    .o0sec2{
+        background-size: 700px;
+        padding: 0.9em 0;
+    }
+
+    /*👉Seção 3 Mobile👈*/
+    .o0sec3{
+        background-size: 700px;
+        padding: 0.5em 0;
+    }
+
     /*👉Seção 7 Mobile👈*/
     .o0sec7 {
         background: url(../images/pv_sec7acao.svg) top left no-repeat;
@@ -5805,7 +6022,20 @@ oemamplieseurepertoriobox
         padding: 0.2em 0 0 0;
     }
 
+    .o0sec7>.box{
+        margin: 0;
+    }
 
+    .o0sec7a>.box{
+        margin: 2.8em 0 0 0 ;
+        padding: 2em 1em 1em 1em;
+    }
+
+    /*👉Seção 8 Mobile👈*/
+    .p1sec8tit1{
+        padding: 0.5em;
+        margin: -0.3em 0;
+    }
 
     /* E-MAIL MOBILE */
     .infoemail {
