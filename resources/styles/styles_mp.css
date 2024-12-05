@@ -1279,12 +1279,14 @@ p3citacaompsemrecuoitemcont
     font-size: var(--peso2);
     text-align: center;
     margin: 0.5em 0 0.5em 0;
+    line-height: 1.5em;
 }
 .p3citacaomptit2{
     font-weight: bold;
     font-size: var(--peso4);
     text-align: center;
     margin: 0.5em 0 0.5em 0;
+    line-height: 1.5em;
 }
 .p3citacaompolho{
     font-style: italic;
@@ -1794,6 +1796,14 @@ o0sec10mp
 
 .p0tit1mp{
     margin: -0.5em 0 0.5em 0;
+}
+
+.o0sugestcomp, .o0sugestcompa {
+    padding: 2em;
+}
+
+.o0secapresentacao{
+    padding: 2em;
 }
 /*👉 Contexto: MPG Mobile👈*/
 .d0box_geralmp .d0grouptit2{

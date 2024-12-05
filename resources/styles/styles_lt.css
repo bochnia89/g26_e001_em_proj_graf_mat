@@ -107,6 +107,7 @@ caption {
     margin: 8px 0 0 0;
     padding: 4px 8px;
     text-align: center;
+    width: 100%;
 }
 
 
@@ -476,6 +477,7 @@ p1sumarioaudiospeso3
     padding: 0.5em 0.6em;
     margin: 0 0 1em 0;
     width: max-content;
+    max-width: 100%;
 }
 
 .p1seciniciaistit2 {
@@ -611,12 +613,6 @@ p0tit6negativo
     max-width: 100%;
 }
 
-/*👉 Não utilizado neste projeto
-.p0tit1{}
-.p0tit1numpv{}
-.p0tit1pv{}
-👈*/
-
 .p0tit1,
 .p0tit2 {
     background: var(--branco);
@@ -633,14 +629,9 @@ p0tit6negativo
 
 .p0tit1numpv,
 .p0tit2numpv {
-    background: var(--preto);
-    /*para evitar problema de validação de contraste*/
-    border-radius: 0.1em;
-    color: var(--branco);
+    font-family: var(--titulo);
     font-size: 3.1em;
     font-weight: bold;
-    line-height: 1em;
-    padding: 0.1em;
 }
 
 .p0tit1pv,
@@ -2218,9 +2209,15 @@ p.p2atvmarcadoritem::before {
     margin: 0.5em 0 0.5em 5em;
 }
 
-.p2atvsemrecuomarcador{}
-.p2atvsemrecuomarcadorcont{}
-.p2atvsemrecuomarcadorromano{}
+.p2atvsemrecuomarcador{
+    margin: 0.5em 0 0.5em 2em;
+}
+.p2atvsemrecuomarcadorcont{
+    margin: 0.5em 0 0.5em 2em;
+}
+.p2atvsemrecuomarcadorromano{
+    margin: 0.5em 0 0.5em 2em;
+}
 
 
 /*👉==================== TEXTOS PESO: intermediário ===================👈*/
@@ -2650,10 +2647,9 @@ p4iconeoed2
     font-family: var(--texto);
     font-size: var(--pesoMenor);
     text-align: right;
-    max-width: 100%;
+    max-width: max-content;
     margin: 0.5em 0;
     padding: 0.2em 0.3em;
-    width: max-content;
 
 }
 
@@ -3052,30 +3048,19 @@ d0fracao
 
 .d0box_aluno .d0tit2 {
     align-items: center;
-    background: url(../images/pv_capitulo.svg) top left no-repeat var(--vermelho1);
+    background: var(--preto);
     background-size: 100%;
-    border-radius: 0 0 3em 3em;
+    border-radius: 50%;
     color: var(--branco);
     display: flex;
     flex-direction: column;
     gap: 0.5em;
-    height: 140px;
     justify-content: center;
     padding: 0 1em;
-    width: max-content;
-    margin: 3.5em 0 0 4.5em;
-}
-
-.d0box_aluno .d0tit2::before {
-    content: '';
-    background: url(../images/pv_capitulo_bg.svg) top left no-repeat;
-    background-size: 100%;
-    height: 233px;
-    margin: 5.7em 0 0 -150px;
-    position: absolute;
-    width: 150px;
-    z-index: -10;
-
+    max-width: 33%;
+    margin: 5em 0 0 5.5em;
+    width: 110px;
+    height: 110px;
 }
 
 .d0imgabertura {}
@@ -3196,13 +3181,46 @@ d2boxadaptaprof
 d2boxadaptaaluno
 d2adaptadatit
 */
-.d2boxadaptacaoconteudo {}
+.d2boxadaptacaoconteudo{
+    margin: 1em 0;
+    padding: 1em;
+}
 
-.d2boxadaptaprof {}
-
-.d2boxadaptaaluno {}
-
-.d2adaptadatit {}
+.d2boxadaptaprof{
+ border-radius: 0 0 1em 1em;
+ border-left: 2px solid var(--corprof);
+ border-right: 2px solid var(--corprof);
+ border-bottom: 2px solid var(--corprof);
+ padding: 1em;
+}
+.d2boxadaptaprof .d2adaptadatit{
+    background: url(../images/ico_acessibilidade_corprof.svg) center left no-repeat var(--rosa2);
+    color: var(--corprof);
+    font-family: var(--titulo);
+    font-weight: bold;
+    font-size: var(--peso6);
+    padding: 0 0 0 2em;
+}
+.d2boxadaptaprof>p{
+    color: var(--corprof);
+}
+.d2boxadaptaaluno{
+    border-radius: 1em 1em 0 0;
+    border-top: 2px solid var(--roxo1);
+    border-left: 2px solid var(--roxo1);
+    border-right: 2px solid var(--roxo1);
+    border-bottom: 2px solid var(--roxo2);
+    padding: 1em;
+}
+.d2adaptadatit{
+    background: url(../images/ico_acessibilidade_adaptada.svg) center left no-repeat var(--roxo3);
+    border-radius: 1em;
+    color: var(--roxo1);
+    font-family: var(--titulo);
+    font-weight: bold;
+    font-size: var(--peso6);
+    padding: 0 0 0 2em;
+}
 
 /*👉ESTILOS DE CARACTER👈*/
 /*👉C0: Estilos “reservados” (uso em Nested Styles)👈*/
@@ -3752,6 +3770,7 @@ o0glossariobox
     border-bottom: 2px solid var(--roxo1);
     border-radius: 0 1em 0 1em;
     margin-top: -2em;
+    padding: 1em;
 }
 
 .o0sumariobox1{
@@ -5929,20 +5948,16 @@ oemamplieseurepertoriobox
         width: 100%;
         height: max-content;
         padding: 1.5em 0 0 0;
-        border: 1px solid blue;
-        
       }
 
       .d0tit2 {
-        background: url(../images/pv_capitulo.svg) top left no-repeat var(--preto);
+        background: var(--preto);
         background-size: 100%;
         color: var(--branco);
         height: 60px;
         padding: 1em 1em  0.5em 1em;
         width: max-content;
         margin: -1000em 0 0 0;
-        border: 1px solid red;
-
       }
     .p0tit2{
       background: var(--branco);
@@ -5951,10 +5966,25 @@ oemamplieseurepertoriobox
       font-weight: bold;
       line-height: 1.13em;
       padding: 0.5em;
-      margin: 1em 10px 0 10px;
+      margin: 0 10px 0 10px;
       width: max-content;
       max-width: 95%;       
       height: max-content;
+    }
+
+    .d0tit2>.p0tit2pv{
+        margin: 0.2em 0 -0.5em 0;
+        font-size: var(--pesoMenor);
+    }
+    .d0tit2>.p0tit2numpv{
+        font-size: 3em;
+    }
+
+    .d0box_aluno .d0tit2{
+        width: 105px;
+        height: 105px;
+        margin: 1em;
+        border-radius: 50%;
     }
 
 
@@ -6071,6 +6101,20 @@ oemamplieseurepertoriobox
         background-size: 750px;
         padding: 0.7em 0 2em 4.5em;
     }
+
+        /* ATIVIDADES ADAPTADAS MOBILE */
+        .d2boxadaptaprof .d2adaptadatit{
+            background: url(../images/ico_acessibilidade_corprof.svg) top left no-repeat;
+            background-size:40px;
+            line-height: 150%;
+            padding: 0 0 0 2.5em;
+        }
+            .d2adaptadatit{
+            background: url(../images/ico_acessibilidade.svg) top left no-repeat;
+            background-size:40px;
+            line-height: 150%;
+            padding: 0 0 0 2.5em;
+        }
 
 
     /* NAVEGADOR MOBILE */
