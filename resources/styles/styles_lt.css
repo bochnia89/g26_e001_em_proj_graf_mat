@@ -243,12 +243,13 @@ d0box_resolucoesmp
     color: transparent;
 }
 
-.ocultatx {
-    font-size: 0.3em;
+.ocultatx{
+    font-size: 0.6em;
+    background: rgba(255, 16, 115, 0.9);
 }
-
-.ocultamn {
-    font-size: 0.9em;
+.ocultamn{
+    font-size: 0.6em;
+    background: rgba(210, 123, 241, 0.8);
 }
 
 .hifen_ano {
